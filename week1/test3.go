@@ -8,7 +8,7 @@ func main() {
 	fmt.Println("|  monday  |  Tuesday  |  Wednesday  |  Thursday  |  Friday  |")
 	fmt.Println("______________________________________________________________")
 	fmt.Println("|          |           |             |            |          |")
-	fmt.Println("|  compro  |   math    |             |            |          |")
+	fmt.Println("|  compro  |   math    |             |            |   sport  |")
 	fmt.Println("______________________________________________________________")
 	fmt.Println("|          |           |             |            |          |")
 	fmt.Println("|  social  |  calculus |   english   |            |          |")
