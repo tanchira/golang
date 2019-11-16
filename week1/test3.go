@@ -7,5 +7,5 @@ func main() {
 	fmt.Println("|          |           |             |            |          |")
 	fmt.Println("|  monday  |  Tuesday  |  Wednesday  |  Thursday  |  Friday  |                                                                            |")
 	fmt.Println("|          |           |             |            |          |")
-
+	fmt.Println("______________________________________________________________")
 }
