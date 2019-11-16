@@ -5,5 +5,5 @@ import "fmt"
 func main() {
 	fmt.Println("____________________________________________________________________________________________")
 	fmt.Println("|                                                                                           |")
-	fmt.Println("|  monday  |  Tuesday  |  Wednesday  |                                                                                     |")
+	fmt.Println("|  monday  |  Tuesday  |  Wednesday  |  Thursday  |                                                                               |")
 }
