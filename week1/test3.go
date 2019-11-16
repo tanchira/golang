@@ -11,5 +11,5 @@ func main() {
 	fmt.Println("|  compro  |           |             |            |          |")
 	fmt.Println("______________________________________________________________")
 	fmt.Println("|          |           |             |            |          |")
-	fmt.Println("|          |           |             |            |          |")
+	fmt.Println("|  social  |           |             |            |          |")
 }
