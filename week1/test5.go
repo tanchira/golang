@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Print("\ttanchira \n")
-	fmt.Print("\tPeawkrathok\n")
+	fmt.Print("\t tanchira \n")
+	fmt.Print("\t Peawkrathok\n")
 	fmt.Print("\t bam")
 }
