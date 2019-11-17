@@ -3,8 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("____________________________________________________________________")
-	fmt.Println("|      |          |           |             |            |          |")
+	fmt.Println("___________________________________________________________________________")
+	fmt.Println("|        |            |             |             |            |          |")
 	fmt.Println("|  time  |   monday   |   Tuesday   |  Wednesday  |  Thursday  |  Friday  |")
 	fmt.Println("___________________________________________________________________________")
 	fmt.Println("|         |          |           |             |            |          |")
