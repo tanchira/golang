@@ -6,6 +6,6 @@ func main() {
 	name := "bam"
 	var age int
 	age = 19
-	fmt.Println(name, age)
+	fmt.Println("my name si", name)
 
 }
