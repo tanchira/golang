@@ -8,5 +8,5 @@ func main() {
 	fmt.Println("tanchi" == "Tanchi")
 	fmt.Println("BAM" != "BAM")
 	fmt.Println(70 >= 70)
-	fmt.Println("bambam" < "Bambam")
+	fmt.Println(80 < 900)
 }
