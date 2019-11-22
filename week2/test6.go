@@ -3,7 +3,7 @@ package main
 import "strings"
 
 func main() {
-	var bam strings.Builder
-	bam.WriteString("Hello")
+	var b strings.Builder
+	b.WriteString("Hello")
 
 }
