@@ -7,5 +7,5 @@ import (
 func main() {
 	fmt.Println("tanchi" == "Tanchi")
 	fmt.Println("BAM" != "BAM")
-	fmt.Println(70 >= B)
+	fmt.Println(70 > 70)
 }
