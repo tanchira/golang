@@ -8,7 +8,7 @@ import (
 func main() {
 	var b strings.Builder
 	b.WriteString("Hello")
-	b.WriteString("")
+	b.WriteString(" ")
 	b.WriteString("world")
 	fmt.Println(b.String())
 
