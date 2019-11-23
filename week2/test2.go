@@ -3,6 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("tanchi" + "ra")
-	fmt.Println(1 + 2)
+	fmt.Println(20 + 3)
+	fmt.Println(30 - 3)
+	fmt.Println(40 * 3)
+	fmt.Println(50 / 3)
+	fmt.Println(60 % 3)
 }
