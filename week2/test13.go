@@ -6,5 +6,5 @@ import (
 )
 
 func main() {
-	fmt.Println(strings.Index("Hello World"))
+	fmt.Println(strings.Index("Hello World", "o"))
 }
