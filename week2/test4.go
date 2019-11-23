@@ -1,12 +1,8 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func main() {
-	fmt.Println("tanchi" == "Tanchi")
-	fmt.Println("BAM" != "BAM")
-	fmt.Println(70 >= 70)
-	fmt.Println(80 < 900)
+	fmt.Println("Hello World"[0:5])
+	fmt.Println("Hello World"[6:11])
 }
