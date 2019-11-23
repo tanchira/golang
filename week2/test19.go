@@ -1,5 +1,6 @@
 package main
 
 func main() {
-	name := "Goku"
+	name := "BAM"
+	age
 }
