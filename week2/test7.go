@@ -16,6 +16,8 @@ func main() {
 
 	startB := time.Now()
 	var b strings.Builder
-	for i := 0; i < 10000;i++
+	for i := 0; i < 10000; i++ {
+		b.WriteString("b")
+	}
 
 }
