@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"strings"
 	"time"
 )
 
@@ -14,5 +15,6 @@ func main() {
 	fmt.Println("a", time.Since(startA))
 
 	startB := time.Now()
+	var b strings.Builder
 
 }
