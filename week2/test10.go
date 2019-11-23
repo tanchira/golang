@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-	fmt.Println(strings.Count("Hello World", "o"))
-	fmt.Println(strings.Count("Hello World", ""))
+	fmt.Println(strings.HasPrefix("Hello World", "hello"))
+	fmt.Println(strings.HasPrefix("Hello World", "Hello"))
 }
