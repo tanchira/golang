@@ -6,5 +6,5 @@ import (
 )
 
 func main() {
-	fmt.Println(strings.Replace("Hello World", "l"))
+	fmt.Println(strings.Replace("Hello World", "l", "x"))
 }
