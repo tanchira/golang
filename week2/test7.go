@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"time"
 )
 
@@ -10,5 +11,6 @@ func main() {
 	for i := 0; i < 10000; i++ {
 		a += "a"
 	}
+	fmt.Println("a", time.Since(startA))
 
 }
