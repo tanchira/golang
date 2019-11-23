@@ -6,5 +6,5 @@ import (
 )
 
 func main() {
-	fmt.Println(strings.Contains("Hello World"))
+	fmt.Println(strings.Contains("Hello World", "world"))
 }
