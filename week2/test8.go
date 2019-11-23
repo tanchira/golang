@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-	fmt.Println(strings.Contains("Hello World", "world"))
-	fmt.Println(strings.Contains("Hello World", "World"))
+	fmt.Println(strings.ContainsAny("Hello World", "hi"))
+	fmt.Println(strings.ContainsAny("Hello World", "Hi"))
 }
