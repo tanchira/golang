@@ -1,8 +1,15 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strings"
+)
 
 func main() {
-	fmt.Println("Hello World"[0:5])
-	fmt.Println("Hello World"[6:11])
+	var b strings.Builder
+	b.WriteString("Hello")
+	b.WriteString(" ")
+	b.WriteString("world")
+	fmt.Println(b.String())
+
 }
