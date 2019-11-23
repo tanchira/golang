@@ -7,6 +7,8 @@ import (
 func main() {
 	startA := time.Now()
 	var a string
-	for i := 0; i < 10000; i++
+	for i := 0; i < 10000; i++ {
+		a += "a"
+	}
 
 }
