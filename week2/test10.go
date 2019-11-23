@@ -6,5 +6,5 @@ import (
 )
 
 func main() {
-	fmt.Println(strings.Count("Hello World"))
+	fmt.Println(strings.Count("Hello World", "o"))
 }
