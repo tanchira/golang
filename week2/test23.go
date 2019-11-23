@@ -8,4 +8,5 @@ func main() {
 	fmt.Println("value", i)
 	p = &i
 	*p = 3
+	fmt.Println("value", i)
 }
