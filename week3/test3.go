@@ -14,5 +14,6 @@ func main() {
 	fmt.Printf("%E \n", 5.0)
 	fmt.Printf("%f \n", 0.1)
 	fmt.Printf("%f \n", 0.2)
+	fmt.Printf("%f \n", 10.0)
 
 }
