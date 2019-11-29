@@ -17,5 +17,6 @@ func main() {
 	fmt.Printf("%% \n")
 	fmt.Printf("%v%% \n ", 20)
 	fmt.Printf("%v%% \n", 20.568)
+	fmt.Printf("%t", 17 > 18)
 
 }
