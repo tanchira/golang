@@ -8,5 +8,5 @@ func main() {
 	fmt.Printf("%-d \n", 10)
 	fmt.Printf("%9d \n", 10)
 	fmt.Printf("%15d \n", 10)
-	fmt.Printf("%14d \n", 10, "%14d", 10)
+	fmt.Printf("%14d \n", 10)
 }
