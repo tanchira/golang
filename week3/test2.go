@@ -13,4 +13,5 @@ func main() {
 	fmt.Printf("%d \n", 1000040)
 	fmt.Printf("%o \n", 10)
 	fmt.Printf("%o \n", 456)
+	fmt.Printf("%x \n", 10)
 }
