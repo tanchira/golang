@@ -23,6 +23,7 @@ func main() {
 	fmt.Printf("%q \n", "\"string\"")
 	fmt.Printf("%s \n", "\"hello\"")
 	fmt.Printf("%q \n", "\"hello\"")
-	fmt.Printf("%s", "welcome")
+	fmt.Printf("%s \n", "welcome")
+	fmt.Printf("%q \n", "welcome")
 
 }
