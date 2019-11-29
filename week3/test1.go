@@ -15,5 +15,6 @@ func main() {
 	fmt.Printf("%T \n", 20)
 	fmt.Printf("%T \n", 20.22)
 	fmt.Printf("%% \n")
+	fmt.Printf("%V%% \n", 17)
 
 }
