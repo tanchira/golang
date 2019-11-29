@@ -4,6 +4,6 @@ import "fmt"
 
 func main() {
 	fmt.Printf("%v", 17)
-	fmt.Printf("%d", 18)
+	fmt.Printf("%d \n", 18)
 
 }
