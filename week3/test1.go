@@ -3,6 +3,6 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Printf("%v", Tanchira)
+	fmt.Printf("%v", 17)
 
 }
