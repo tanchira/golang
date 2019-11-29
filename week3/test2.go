@@ -23,5 +23,6 @@ func main() {
 	fmt.Printf("%c \n", 45)
 	fmt.Printf("%c \n", 55)
 	fmt.Printf("%c \n", 80)
-	fmt.Printf("%q", 35)
+	fmt.Printf("%q \n", 35)
+	fmt.Printf("%q \n", 45)
 }
