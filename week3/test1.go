@@ -7,5 +7,6 @@ func main() {
 	fmt.Printf("%d \n", 18)
 	fmt.Printf("%g \n", 19.259)
 	fmt.Println("%s", "hello")
+	fmt.Printf("%s", "hello")
 
 }
