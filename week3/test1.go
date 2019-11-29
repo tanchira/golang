@@ -15,6 +15,6 @@ func main() {
 	fmt.Printf("%T \n", 20)
 	fmt.Printf("%T \n", 20.22)
 	fmt.Printf("%% \n")
-	fmt.Printf("%V%% \n", 1)
-
+	fmt.Printf("%% \n", 1)
+  
 }
