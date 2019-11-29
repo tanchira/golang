@@ -20,7 +20,7 @@ func main() {
 	fmt.Printf("%t \n", 17 > 18)
 	fmt.Printf("%t \n", 20 < 22)
 	fmt.Printf("%s  \n", "\"string\"")
-	fmt.Printf("%q", "\"string\"")
-	fmt.Printf("%s", "\"hello\"")
+	fmt.Printf("%q \n", "\"string\"")
+	fmt.Printf("%s \n", "\"hello\"")
 
 }
