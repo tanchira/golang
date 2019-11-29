@@ -9,5 +9,6 @@ func main() {
 	fmt.Print("%s \n", "hello")
 	fmt.Println("%s \n", "hello")
 	fmt.Printf("%s", "hello")
+	fmt.Printf("%#v", "17")
 
 }
