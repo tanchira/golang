@@ -23,5 +23,6 @@ func main() {
 	fmt.Printf("%-8d \n", 17)
 	fmt.Printf("%-9d \n", 17)
 	fmt.Printf("%-9d \n", 10)
+	fmt.Printf("%-9d", 10)
 
 }
