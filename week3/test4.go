@@ -18,5 +18,6 @@ func main() {
 	fmt.Printf("%-9d \n", 10)
 	fmt.Printf("%-1d \n", 17)
 	fmt.Printf("%-2d \n", 17)
+	fmt.Printf("%-3d \n", 17)
 
 }
