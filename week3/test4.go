@@ -15,5 +15,6 @@ func main() {
 	fmt.Printf("%05g \n", 22.21)
 	fmt.Printf("%04t \n", 15 > 14)
 	fmt.Printf("%08t \n	", 16 > 15)
+	fmt.Printf("%-9d", 10)
 
 }
