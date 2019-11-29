@@ -11,5 +11,6 @@ func main() {
 	fmt.Printf("%s \n", "hello")
 	fmt.Printf("%#v \n", "17")
 	fmt.Printf("%#v \n", 17)
+	fmt.Printf("%T", "20")
 
 }
