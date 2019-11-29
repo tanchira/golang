@@ -8,7 +8,7 @@ func main() {
 	fmt.Printf("%g \n", 19.259)
 	fmt.Print("%s \n", "hello")
 	fmt.Println("%s \n", "hello")
-	fmt.Printf("%s", "hello")
+	fmt.Printf("%s \n", "hello")
 	fmt.Printf("%#v \n", "17")
 	fmt.Printf("%#v \n", 17)
 
