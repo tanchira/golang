@@ -1,5 +1,7 @@
 package main
 
-func main() {
+import "fmt"
 
+func main() {
+	n, e := fmt.Println("tanchira", "Paewkrathok", 123, 456, 789)
 }
