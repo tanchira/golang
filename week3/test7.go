@@ -8,5 +8,6 @@ func main() {
 	fmt.Printf("Pi =%03.2f \n", 1.23456789)
 	fmt.Printf("Pi = %011.4f \n", 1.23456789)
 	fmt.Printf("Pi =%02.f \n", 1.23456789)
+	fmt.Printf("Pi =%05.f \n", 1234.56789)
 
 }
