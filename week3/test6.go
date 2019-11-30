@@ -6,3 +6,4 @@ func main() {
 	fmt.Printf("type = %T \n",3.10159265359)
 	fmt.Printf("Pi =%2.2f \n",3.10159265359)
 	fmt.Printf("Pi =%9.f \n",3.10159265359)
+	fmt.Printf("Pi =%-9.f \n",3.10159265359)
