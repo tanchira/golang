@@ -12,5 +12,6 @@ func main() {
 	var height float32
 	var weight float32
 	n, err := fmt.Scan(&name, &age, &height, &weight)
+	fmt.Println("My name is", name, "I am", age, "year old.", "I height", height, "cm.", "I weight", weight, "kk.")
 
 }
