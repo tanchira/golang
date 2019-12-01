@@ -7,4 +7,5 @@ func main() {
 	var age int
 	n, e := fmt.Scanln(&name, &age)
 	fmt.Println("name", name)
+	fmt.Println("age", age)
 }
