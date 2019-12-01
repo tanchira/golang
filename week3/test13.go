@@ -7,4 +7,5 @@ func main() {
 	var name string
 	var age int
 	var height float32
+	var weight float32
 }
