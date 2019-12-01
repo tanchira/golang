@@ -6,10 +6,10 @@ func main() {
 	fmt.Print("imput name :  \n")
 	var name string
 	fmt.Print("input age :  \n")
+	var age int
 	fmt.Print("input height :  \n")
 	fmt.Print("input weight :  \n")
 
-	var age int
 	var height float32
 	var weight float32
 	n, err := fmt.Scan(&name, &age, &height, &weight)
