@@ -11,5 +11,6 @@ func main() {
 	var age int
 	var height float32
 	var weight float32
+	n, err := fmt.Scan(&name, &age, &height, &weight)
 
 }
