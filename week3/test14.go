@@ -9,5 +9,6 @@ func main() {
 	fmt.Print("input weight :  \n")
 	var name string
 	var age int
+	var height float32
 
 }
