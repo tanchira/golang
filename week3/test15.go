@@ -9,4 +9,5 @@ func main() {
 	fmt.Println("read fioate", f)
 	fmt.Println("read int", d)
 	fmt.Println("number of items successfully scanned", n)
+	fmt.Println("error", e)
 }
