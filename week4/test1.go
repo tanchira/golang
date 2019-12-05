@@ -9,7 +9,6 @@ func main() {
 
 func Average(a int, b int) int {
 
-	return 3
-	return 5
+	return a && b
 
 }
