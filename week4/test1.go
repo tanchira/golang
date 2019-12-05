@@ -1,5 +1,5 @@
 package test1
 
-func Averge() {
+func Averge(num ...int) int {
 
 }
