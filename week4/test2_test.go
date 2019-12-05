@@ -1,10 +1,12 @@
-package test2
+package test1
 
-func TestHello(t. *testing.T) {
+import "testing"
+
+func TestHello(t *testing.T) {
 	output := ("Hello ,World")
-	got := ("Hello world")
-	if got != output{
+	got := ("Hello ,World")
+	if got != output {
 		t.Error("error")
 	}
-	
+
 }
