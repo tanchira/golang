@@ -1,5 +1,5 @@
 package test2
 
-func TestHello() {
+func TestHello(t. *testing.T) {
 
 }
