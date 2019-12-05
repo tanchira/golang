@@ -1,6 +1,6 @@
-package test2
+package test1
 
-func Hello() string {
+func Hello(a string) string {
 	return "Hello , World"
 
 }
