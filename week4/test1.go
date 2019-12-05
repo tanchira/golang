@@ -7,7 +7,7 @@ func main() {
 	fmt.Print(Number)
 }
 
-func Average(Number ...int) int {
+func Average(a int, b int) int {
 
 	return 3
 
