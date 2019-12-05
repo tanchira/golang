@@ -7,9 +7,7 @@ func main() {
 	fmt.Print(Number)
 }
 
-func Average(a int, b int) int {
-	a = 3
-	b = 5
-	return
+func Average(num ...int) int {
+	var sum int
 
 }
