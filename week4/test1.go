@@ -1,7 +1,7 @@
 package test1
 
 func main()  {
-	Number := Average
+	Number := Average(3,5)
 }
 
 
