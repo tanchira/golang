@@ -8,8 +8,7 @@ func main() {
 }
 
 func Average(Number ...int) int {
-	var Number int
-	Number = 3
-	return Number
+
+	return 3
 
 }
