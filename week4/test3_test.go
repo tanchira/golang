@@ -2,8 +2,8 @@ package test1
 
 import "testing"
 
-func TestHi(t *testing.T) {
-	got := Hi()
+func TestHel(t *testing.T) {
+	got := Hel()
 	want := "Hello,Wiorld"
 	if got != want {
 		t.Errorf("got %q want %q", got, want)
