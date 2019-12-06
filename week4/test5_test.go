@@ -12,6 +12,8 @@ func TestRomanNumerals(t *testing.T) {
 		{"2 gets converted to II", 2, "II"},
 	}
 
-	for _, test := range cases 
+	for _, test := range cases {
+		t.Run(test.Description, func(t *testing.T))
+	}
 
 }
