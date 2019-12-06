@@ -1,9 +1,9 @@
-package test4
+package test1
 
 import "testing"
 
 func TestAdder(t *testing.T) {
-	sum := Add(2, 2)
+	sum := Adder(2, 2)
 	expected := 4
 
 	if sum != expected {
