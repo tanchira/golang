@@ -2,11 +2,5 @@ package test4
 
 import "testing"
 
-func TestHello(t *testing.T) {
-	got := Hello()
-	want := "Hello , World"
+func TestAdder(t *testing.T) {
 
-	if got != want {
-
-	}
-}
