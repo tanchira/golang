@@ -7,7 +7,7 @@ func TestFind(t *testing.T) {
 		want := false
 		got :=Find("Heppy birthday")
 		if want != got{
-			t.Errorf("want fales but got ture")
+			t.Errorf("want fales but got ture",want.got)
 		}
 		
 	}
