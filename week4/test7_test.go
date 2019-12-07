@@ -2,7 +2,7 @@ package test1
 
 import "testing"
 
-func TestFind(t *testing.T) {
+func TestText(t *testing.T) {
 	Run."Happ birthday",func (t *testing.T)  {
 		want := false
 		got :=Find("Heppy birthday")
