@@ -3,7 +3,7 @@ package test1
 import "testing"
 
 func TestSum(t *testing.T) {
-	t.Run("Hello World", func(t *tesing.T) {
+	t.Run("Hello World", func(t *testing.T) {
 		want := true
 		got := Sum("Hello World")
 		if want != got {
