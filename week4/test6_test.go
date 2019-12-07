@@ -7,7 +7,7 @@ func TestFind(t *testing.T) {
 		want := true
 		got := Find("Hello World")
 		if got != want {
-			t.Errorf("\n got %v \n want %v")
+			t.Errorf("\n got %v \n want %v", want, got)
 		}
 	})
 
