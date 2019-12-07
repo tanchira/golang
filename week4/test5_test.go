@@ -2,23 +2,11 @@ package test1
 
 import "testing"
 
-func TestRomanNumerals(t *testing.T) {
-	cases := []struct {
-		Description string
-		Arabic      int
-		Want        string
-	}{
-		{"1 gets converted to I", 1, "I"},
-		{"2 gets converted to II", 2, "II"},
-	}
+func TestPlus(t *testing.T) {
+	want := Plus(2 + 3)
+	got := 5
 
-	for _, test := range cases {
-		t.Run(test.Description, func(t *testing.T) {
-			got := ConvertToRoman(test.Arabic)
-			if got != test.Want {
-				t.Errorf("got %q, want %q", got, test.Want)
-			}
-		})
+	if want != got {
+		t.Error("want not equal to got ")
 	}
-
 }
