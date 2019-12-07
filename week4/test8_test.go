@@ -21,6 +21,7 @@ func TestSum(t *testing.T) {
 	})
 	t.Run("tanchira", func(t *testing.T) {
 		want := true
+		got := Sum("tanchira")
 
 	})
 
