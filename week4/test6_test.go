@@ -1,5 +1,7 @@
 package test1
 
-func TestFind(t *tesing.T) {
+import "testing"
+
+func TestFind(t *testing.T) {
 
 }
