@@ -1,6 +1,6 @@
 package test1
 
-func Find(a string) bool {
+func Text(a string) bool {
 	return false
 
 }
