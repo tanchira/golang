@@ -7,6 +7,6 @@ func TestPlus(t *testing.T) {
 	got := 5
 
 	if want != got {
-
+		t.Error("want not equal to got ")
 	}
 }
