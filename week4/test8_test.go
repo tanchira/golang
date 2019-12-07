@@ -7,11 +7,12 @@ func TestSum(t *testing.T) {
 		want := true
 		got := Sum("Hello World")
 		if want != got {
-			t.Error("want true but got fales", want, got)
+			t.Error("want true but got false", want, got)
 		}
 
 	})
 	t.Run("Heppy birthday", func(t *testing.T) {
+		want := false
 
 	})
 
