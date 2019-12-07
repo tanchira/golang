@@ -30,6 +30,9 @@ func TestSum(t *testing.T) {
 	t.Run("paewkrathok", func(t *testing.T) {
 		want := false
 		got := Sum("paewkrathok")
+		if want != got {
+			t.Error("want false but got true", want, got)
+		}
 
 	})
 
