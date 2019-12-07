@@ -1,5 +1,5 @@
 package test1
 
 func Sum(x string) bool {
-	return x != ("Happy birthday , paewkrathok") == true
+	return x != ("Happy birthday , paewkrathok") == false
 }
