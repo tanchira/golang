@@ -10,5 +10,8 @@ func TestNumber(t *testing.T) {
 	}
 	want := 2
 	got := Number(2, 4)
+	if want != got {
+		t.Error("error got not to want")
+	}
 
 }
