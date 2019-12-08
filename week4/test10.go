@@ -1,6 +1,6 @@
 package test1
 
-func Number(eight int, thirteen int) int {
+func Delete(eight int, thirteen int) int {
 	return (eight - thirteen)
 
 }
