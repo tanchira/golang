@@ -1,6 +1,6 @@
 package test1
 
-func Number(x int, y int) int {
-	return (x + y)
+func Number(y ...int) int {
+	return
 
 }
