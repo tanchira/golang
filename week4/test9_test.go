@@ -8,5 +8,7 @@ func TestNumber(t *testing.T) {
 	if want != got {
 		t.Error("error got not to want")
 	}
+	want := 2
+	got := Number(2, 4)
 
 }
