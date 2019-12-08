@@ -1,6 +1,8 @@
 package test1
 
-func TestNumber(t *tesing.T) {
+import "testing"
+
+func TestNumber(t *testing.T) {
 	want := 2
 	got := Number(1, 1)
 	if want != got {
