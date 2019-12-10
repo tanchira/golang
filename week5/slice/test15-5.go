@@ -1,5 +1,6 @@
 package main
 
 func main() {
-	num := []int{1, 2, 3}
+	num1 := []int{1, 2, 3}
+	num2 := []int{1, 2, 3}
 }
