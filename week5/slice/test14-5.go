@@ -13,5 +13,7 @@ func main() {
 	dawn4 := make([]int, len(dawn3))
 	copy(dawn3, dawn4)
 	fmt.Println(dawn3, dawn4)
+	dawn3[0] = 5
+	fmt.Println(dawn3, dawn4)
 
 }
