@@ -7,5 +7,6 @@ func main() {
 	age := []int{19}
 
 	fmt.Println("My name is", name)
+	fmt.Println("age", age)
 
 }
