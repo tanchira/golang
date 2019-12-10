@@ -4,6 +4,6 @@ import "fmt"
 
 func main() {
 	number := []int{}
-	number = append(nmuber, 5)
+	number = append(number, 5)
 	fmt.Println(number)
 }
