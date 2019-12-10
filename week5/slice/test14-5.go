@@ -12,5 +12,6 @@ func main() {
 	dawn3 := []int{1, 2, 3}
 	dawn4 := make([]int, len(dawn3))
 	copy(dawn3, dawn4)
+	fmt.Println(dawn3, dawn4)
 
 }
