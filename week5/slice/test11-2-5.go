@@ -11,4 +11,6 @@ func main() {
 
 	first2 := first[3:5]
 	fmt.Println(first2)
+
+	first3 := first2[0:2]
 }
