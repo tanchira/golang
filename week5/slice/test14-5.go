@@ -9,5 +9,6 @@ func main() {
 	dawn1[1] = 5
 	fmt.Println(dawn1, dawn2)
 	fmt.Println("-----")
+	dawn3 := []int{1, 2, 3}
 
 }
