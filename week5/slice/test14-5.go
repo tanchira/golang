@@ -1,6 +1,7 @@
 package main
 
 func main() {
-	dawn := []int{1, 2, 3}
+	dawn1 := []int{1, 2, 3}
+	dawn2
 
 }
