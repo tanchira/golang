@@ -1,5 +1,5 @@
 package main
 
 func main() {
-	cost := make([]string,5{"a","b","c","d","e"})
+	cost := make([]string,{"a","b","c","d","e"})
 }
