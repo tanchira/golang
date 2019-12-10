@@ -15,5 +15,6 @@ func main() {
 	fmt.Println(dawn3, dawn4)
 	dawn3[0] = 5
 	fmt.Println(dawn3, dawn4)
+	fmt.Println("-----")
 
 }
