@@ -10,5 +10,6 @@ func main() {
 	fmt.Println(dawn1, dawn2)
 	fmt.Println("-----")
 	dawn3 := []int{1, 2, 3}
+	dawn4 := make([]int, len(dawn3))
 
 }
