@@ -14,4 +14,6 @@ func main() {
 
 	first3 := first2[0:2]
 	fmt.Println(first3)
+
+	first4[3] = "0"
 }
