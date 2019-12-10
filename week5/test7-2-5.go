@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 	number := [2][5][2]int{
 		{
@@ -15,4 +17,5 @@ func main() {
 			{100, 200},
 		},
 	}
+	fmt.Println(number)
 }
