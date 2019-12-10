@@ -3,6 +3,6 @@ package main
 import "fmt"
 
 func main() {
-	var sum [2]int
+	var sum [20]int
 	fmt.Println(sum)
 }
