@@ -17,5 +17,6 @@ func main() {
 	fmt.Println(dawn3, dawn4)
 	fmt.Println("-----")
 	dawn5 := make([]int, 1)
+	copy(dawn5, dawn3)
 
 }
