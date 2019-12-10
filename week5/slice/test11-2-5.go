@@ -12,7 +12,7 @@ func main() {
 	first2 := first[3:5]
 	fmt.Println(first2)
 
-	first3 := first2[0:2]
+	first3 := first2[0:1]
 	fmt.Println(first3)
 
 	first3[3] = "x"
