@@ -7,5 +7,6 @@ func main() {
 	dawn2 := dawn1
 	fmt.Println(dawn1, dawn2)
 	dawn1[0] = 10
+	fmt.Println(dawn1, dawn2)
 
 }
