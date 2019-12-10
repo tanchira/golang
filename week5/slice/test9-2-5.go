@@ -4,6 +4,6 @@ import "fmt"
 
 func main() {
 	name := [5]string{"tanhira"}
-	name[5] = "tanchira"
+	name[0] = "tanchira"
 	fmt.Println(name)
 }
