@@ -7,4 +7,5 @@ func main() {
 	fmt.Println(alphabets)
 
 	first := alphabets[0:3]
+	fmt.Println(first)
 }
