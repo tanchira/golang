@@ -13,5 +13,6 @@ func main() {
 	fmt.Println(y)
 
 	z := y[0:1]
+	fmt.Println(z)
 
 }
