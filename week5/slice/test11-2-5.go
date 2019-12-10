@@ -8,4 +8,6 @@ func main() {
 
 	first := alphabets[0:3]
 	fmt.Println(first)
+
+	first2 := first[3:5]
 }
