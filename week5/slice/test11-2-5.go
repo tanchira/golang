@@ -15,6 +15,6 @@ func main() {
 	first3 := first2[0:1]
 	fmt.Println(first3)
 
-	first3[3] = "x"
+	first3[0] = "x"
 	fmt.Println(alphabets)
 }
