@@ -7,5 +7,6 @@ func main() {
 	fmt.Println(alphabets)
 
 	x := alphabets[0:2]
+	fmt.Println(x)
 
 }
