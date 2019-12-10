@@ -16,4 +16,5 @@ func main() {
 	fmt.Println(first3)
 
 	first3[3] = "0"
+	fmt.Println(alphabets)
 }
