@@ -17,7 +17,7 @@ func TestFizzWord(t *testing.T) {
 	for _, test := range testCases {
 		got := FizzWord(test.input[0], test.input[1])
 		if got != test.want {
-			t.Errorf("\nunexpected\n\tgot: %v\n\twant: %v", got, test.want)
+			t.Errorf("\n unexpected \n\t got: %v \n\t want: %v ", got, test.want)
 		}
 	}
 }
