@@ -11,7 +11,7 @@ import "fmt"
 
 func main() {
 	essay := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
-	for i, v := range essay {
+	for _, v := range essay {
 		fmt.Printf(" \n", i, v)
 	}
 }
