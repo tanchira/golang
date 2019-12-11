@@ -15,3 +15,7 @@ func main() {
 		fmt.Printf(" \n", essay)
 	}
 }
+
+func main() {
+
+}
