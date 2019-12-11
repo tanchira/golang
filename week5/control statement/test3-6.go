@@ -11,5 +11,7 @@ func main() {
 
 func main() {
 	essay := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
-	for i,v := range essay
+	for i, v := range essay {
+		fmt.Printf("%d \n", i, v)
+	}
 }
