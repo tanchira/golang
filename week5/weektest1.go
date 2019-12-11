@@ -1,4 +1,4 @@
-package main
+package week5_6
 
 import "strconv"
 
