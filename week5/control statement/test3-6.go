@@ -18,7 +18,7 @@ import "fmt"
 
 func main() {
 	essay := []string{"a", "b", "c", "d", "e"}
-	for essay := range essay {
+	for _, essay := range essay {
 		fmt.Println(essay)
 	}
 }
