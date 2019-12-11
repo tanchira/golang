@@ -8,6 +8,8 @@ func FizzWord(number int, mod int) string {
 
 	if number%mod == 0 {
 		return "fizz"
+	} else {
+		return "number"
 	}
 	return strconv.Itoa(number)
 }
