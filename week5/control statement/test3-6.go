@@ -18,5 +18,7 @@ func main() {
 
 func main() {
 	essay := []string{"a", "b", "c", "d", "e"}
-	for essay := range essay
+	for essay := range essay {
+		fmt.Println(essay)
+	}
 }
