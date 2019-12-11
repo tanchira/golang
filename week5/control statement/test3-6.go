@@ -8,3 +8,7 @@ func main() {
 		fmt.Printf("%t \n", essay)
 	}
 }
+
+func main() {
+
+}
