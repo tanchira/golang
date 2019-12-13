@@ -11,5 +11,5 @@ func greet(name string) {
 }
 
 func main() {
-
+	say()
 }
