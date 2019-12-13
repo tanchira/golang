@@ -10,5 +10,6 @@ func greet(name string) {
 	fmt.Println("Hello", name)
 }
 func main() {
-
+	say()
+	greet("Goku")
 }
