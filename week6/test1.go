@@ -1,4 +1,4 @@
-package week6
+package main
 
 import "fmt"
 
