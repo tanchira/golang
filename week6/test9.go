@@ -1,5 +1,5 @@
 package main
 
-func factorial() {
+func factorial(number int) int {
 
 }
