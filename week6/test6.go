@@ -7,3 +7,7 @@ func writeline(text ...interface{}) {
 		fmt.Println(v)
 	}
 }
+
+func main() {
+
+}
