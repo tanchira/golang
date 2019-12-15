@@ -9,3 +9,7 @@ func main() {
 		return num1 + num2
 	}
 }
+
+func main() {
+
+}
