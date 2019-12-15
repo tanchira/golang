@@ -6,5 +6,5 @@ func subtract(text1 string, text2 string, text3 string) string {
 }
 
 func main() {
-	include := subtract(M, A, B)
+	include := subtract("M, A, B")
 }
