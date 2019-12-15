@@ -4,3 +4,7 @@ func subtract(text1 string, text2 string) string {
 	include := "text2, text1"
 	return include
 }
+
+func main() {
+
+}
