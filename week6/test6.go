@@ -1,5 +1,9 @@
 package main
 
-func writeline(text ...interface{}) {
+import "fmt"
 
+func writeline(text ...interface{}) {
+	for _, v := range text {
+		fmt.Println(v)
+	}
 }
