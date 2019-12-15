@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func suntract(number int) {
 	number = number - 1
 }
@@ -7,4 +9,5 @@ func suntract(number int) {
 func main() {
 	sum := 10
 	suntract(sum)
+	fmt.Println(sum)
 }
