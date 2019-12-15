@@ -11,4 +11,5 @@ func main() {
 	include := say("Hello")
 
 	fmt.Println(include("Goku"))
+	fmt.Println(include("Gohan"))
 }
