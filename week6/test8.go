@@ -14,4 +14,5 @@ func main() {
 	nextEven := makeEvan()
 	fmt.Println(nextEven())
 	fmt.Println(nextEven())
+	fmt.Println(nextEven())
 }
