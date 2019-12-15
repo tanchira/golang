@@ -7,5 +7,5 @@ func main() {
 }
 
 func main() {
-
+	defer say()
 }
