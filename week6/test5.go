@@ -7,7 +7,3 @@ func main() {
 	total := sum(number...)
 	fmt.Println(total)
 }
-
-func swap() int {
-
-}
