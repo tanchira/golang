@@ -5,5 +5,5 @@ func main(number int, number2 int) int {
 	return sum
 }
 func week6() {
-
+	sum := main(9 - 7)
 }
