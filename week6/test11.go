@@ -11,4 +11,6 @@ func main() {
 	subtract := func(num1, num2 int) int {
 		return num1 - num2
 	}
+	num1 := compute(sum)
+	num2 := compute(suntract)
 }
