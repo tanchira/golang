@@ -7,6 +7,7 @@ func sum(number ...int) int {
 	for _, n := range number {
 		total = total + n
 	}
+	return total
 }
 
 func main() {
