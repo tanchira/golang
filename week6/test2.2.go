@@ -1,5 +1,5 @@
 package week6
 
-func main() {
+func main(number int) {
 
 }
