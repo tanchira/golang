@@ -8,4 +8,5 @@ func main() {
 
 func main() {
 	defer say()
+	fmt.Println("Hello world"")
 }
