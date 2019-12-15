@@ -4,7 +4,7 @@ import "fmt"
 
 func suntract(number int) {
 	number = number - 1
-	return number
+
 }
 
 func main() {
