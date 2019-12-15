@@ -6,3 +6,7 @@ func sum(number ...int) int {
 		total = total + n
 	}
 }
+
+func main() {
+
+}
