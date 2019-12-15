@@ -4,3 +4,6 @@ func main(number int, number2 int) int {
 	sum := number - number2
 	return sum
 }
+func week6() {
+
+}
