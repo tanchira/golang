@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func subtract(x int, y int) int {
-	ans := x - y
+	ans := y - x
 	return ans
 }
 func main() {
