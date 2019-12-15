@@ -9,6 +9,6 @@ func suntract(number int) {
 
 func main() {
 	sum := 10
-	suntract(&sum)
+	suntract(sum)
 	fmt.Println(sum)
 }
