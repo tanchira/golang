@@ -14,4 +14,5 @@ func main() {
 	fmt.Println(include)
 
 	include2 := sum()
+	fmt.Println(include2)
 }
