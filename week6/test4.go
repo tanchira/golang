@@ -12,4 +12,6 @@ func sum(number ...int) int {
 func main() {
 	include := sum(1, 3, 5, 7, 9)
 	fmt.Println(include)
+
+	include2 := sum()
 }
