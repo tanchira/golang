@@ -8,6 +8,6 @@ func main() {
 	fmt.Println(total)
 }
 
-func swap() {
+func swap() int {
 
 }
