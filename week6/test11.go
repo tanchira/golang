@@ -5,5 +5,7 @@ func compute(fn func(int, int) int) int {
 }
 
 func main() {
+	sum := func(num1, num2 int) int {
 
+	}
 }
