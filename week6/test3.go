@@ -5,5 +5,5 @@ func swap(num1, num2 int) (int, int) {
 }
 
 func main() {
-
+	num1, num2 := swap(10, 5)
 }
