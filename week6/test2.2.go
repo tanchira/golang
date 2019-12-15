@@ -2,4 +2,5 @@ package week6
 
 func main(number int, number2 int) int {
 	sum := number - number2
+	return sum
 }
