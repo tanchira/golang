@@ -5,3 +5,6 @@ func say(greet string) func(string) string {
 		return greet + name
 	}
 }
+func main() {
+
+}
