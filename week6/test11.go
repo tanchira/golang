@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func compute(fn func(int, int) int) int {
 	return fn(3, 4)
 }
@@ -13,4 +15,5 @@ func main() {
 	}
 	num1 := compute(sum)
 	num2 := compute(suntract)
+	fmt.Println(num1)
 }
