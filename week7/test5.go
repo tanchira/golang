@@ -7,5 +7,5 @@ func handlepanic() {
 	fmt.Println(text)
 }
 func main() {
-
+	defer handlepanic()
 }
