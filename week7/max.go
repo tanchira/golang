@@ -13,7 +13,7 @@ func Max(number ...int) int {
 }
 
 func main() {
-
+	panic("error")
 	max := Max(4, 8, 9, 3, 21, 5, 10, 56, 84, 71, 32)
 	fmt.Println(max)
 }
