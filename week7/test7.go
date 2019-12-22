@@ -11,5 +11,6 @@ func handlePanic() {
 func main() {
 	defer handlePanic()
 	var i int
+	fmt.Println("type number : ")
 
 }
