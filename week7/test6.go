@@ -2,10 +2,10 @@ package main
 
 import "fmt"
 
-func handlepanic() {
+func handlePanic() {
 	fmt.Println("Hello World")
 }
 func main() {
-	defer handlepanic()
+	defer handlePanic()
 	panic("Hello panic")
 }
