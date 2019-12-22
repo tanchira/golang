@@ -1,9 +1,11 @@
 package main
 
-func handlepanic()  {
+import "fmt"
+
+func handlepanic() {
 	fmt.Println("Hello World")
 }
 func main() {
-	defer()
+	defer handlepanic()
 	panic("Hello panic")
 }
