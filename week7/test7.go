@@ -9,6 +9,6 @@ func handlePanic() {
 	}
 }
 func main() {
-	defer handlePanic
+	defer handlePanic()
 
 }
