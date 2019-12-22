@@ -8,3 +8,6 @@ func handlePanic() {
 		fmt.Println("your number out of range")
 	}
 }
+func main() {
+
+}
