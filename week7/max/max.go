@@ -9,3 +9,6 @@ func Max(number ...int) int {
 	}
 	return max
 }
+func main() {
+
+}
