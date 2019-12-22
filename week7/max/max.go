@@ -10,5 +10,5 @@ func Max(number ...int) int {
 	return max
 }
 func main() {
-
+	max := Max(89, 66, 11, 44, 77, 66, 24, 91, 99, 87, 39, 95, 45)
 }
