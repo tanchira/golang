@@ -8,4 +8,5 @@ func handlepanic() {
 }
 func main() {
 	defer handlepanic()
+	panic("Hello panic")
 }
