@@ -7,5 +7,5 @@ func Max(number ...int) int {
 			max = number[text]
 		}
 	}
-
+	return max
 }
