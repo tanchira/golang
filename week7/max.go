@@ -1,5 +1,5 @@
 package main
 
-func Max() {
+func Max(number ...int) int {
 
 }
