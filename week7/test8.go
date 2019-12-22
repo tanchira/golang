@@ -7,7 +7,7 @@ func main() {
 	fmt.Println("type number :")
 	_, e := fmt.Scan(&number)
 	if e != nil {
-
+		panic("to much")
 	}
 
 }
