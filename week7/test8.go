@@ -9,5 +9,5 @@ func main() {
 	if e != nil {
 		panic("to much")
 	}
-
+	fmt.Println("your number :", number)
 }
