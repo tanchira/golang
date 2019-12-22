@@ -11,5 +11,5 @@ func Max(number ...int) int {
 }
 
 func main() {
-
+	panic("error")
 }
