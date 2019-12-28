@@ -20,6 +20,6 @@ type pupil struct {
 
 func main() {
 	var pup pupil
-	pup := pupil{std: goku}
+	pup.name = "goku"
 	pup.std.introduce()
 }
