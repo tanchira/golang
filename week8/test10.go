@@ -19,4 +19,5 @@ func main() {
 	ever := say("hello")
 	fmt.Println(ever)
 	ever2 := say("hi")
+	fmt.Println(ever2)
 }
