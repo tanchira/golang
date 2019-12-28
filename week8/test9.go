@@ -16,4 +16,3 @@ func main() {
 	dont := any.(bool)
 	fmt.Println(dont)
 }
-}
