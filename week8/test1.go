@@ -5,4 +5,6 @@ func main() {
 	var studentAge [10]int
 	var studentEmail [10]string
 
+	studentName[0] = "Goku"
+
 }
