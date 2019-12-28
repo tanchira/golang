@@ -16,5 +16,6 @@ func main() {
 	var add student
 	add.age = 18
 	fmt.Println(add.age)
-	ass.growUp(20)
+	add.growUp(20)
+	fmt.Println(add.age)
 }
