@@ -12,4 +12,5 @@ func (std student) growUp(i int) {
 }
 func main() {
 	var add student
+	add.age = 18
 }
