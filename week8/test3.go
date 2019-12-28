@@ -19,6 +19,7 @@ func main() {
 	fmt.Println(all)
 	fmt.Println(all2)
 	fmt.Println(all3)
+	fmt.Println(all4)
 	
 
 }
