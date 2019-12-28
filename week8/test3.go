@@ -7,14 +7,16 @@ type student struct {
 }
 
 func main() {
-	var a student
-	a.name = "Goku"
-	a.age = 18
-	a.email = "Goku@super.saiya"
+	var all student
+	all.name = "Goku"
+	all.age = 18
+	all.email = "Goku@super.saiya"
 
-	all := student{"Gohan",3"Gohan@super.saiya"}
-	all2 := student{name:"videl",email:"Videl@daughter.satan"}
-	all3:=student{age :20}
+	all2 := student{"Gohan",3"Gohan@super.saiya"}
+	all3 := student{name:"videl",email:"Videl@daughter.satan"}
+	all4:=student{age :20}
+
+	fmt.Println()
 	
 	
 
