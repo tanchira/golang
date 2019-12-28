@@ -1,6 +1,7 @@
 package main
 
 type studewnt struct {
-	name string
-	age  int
+	name  string
+	age   int
+	email string
 }
