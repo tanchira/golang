@@ -11,3 +11,5 @@ func main() {
 	total := &std
 	(*total).age=20
 	total.email = "Goku@super.saiya"
+
+	fmt.Println(std)
