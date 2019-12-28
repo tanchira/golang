@@ -1,3 +1,5 @@
 package main
 
-type studewnt struct
+type studewnt struct {
+	name string
+}
