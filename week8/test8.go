@@ -3,4 +3,6 @@ package main
 type I interface {
 	F()
 }
-type T struct
+type T struct {
+	text string
+}
