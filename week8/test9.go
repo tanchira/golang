@@ -9,4 +9,6 @@ func main() {
 	any = "Hello"
 	yes, ok := any(string)
 	fmt.Println(yes.ok)
+
+	not, ok := any.(float64)
 }
