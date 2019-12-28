@@ -16,8 +16,8 @@ func main() {
 	all3 := student{name:"videl",email:"Videl@daughter.satan"}
 	all4:=student{age :20}
 
-	fmt.Println()
-	
+	fmt.Println(all)
+	fmt.Println(all2)
 	
 
 }
