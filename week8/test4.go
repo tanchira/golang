@@ -8,4 +8,4 @@ type student struct {
 
 func main() {
 	std := student{name: "Goku"}
-}
+	total := &std
