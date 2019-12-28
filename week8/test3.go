@@ -12,4 +12,7 @@ func main() {
 	a.age = 18
 	a.email = "Goku@super.saiya"
 
+	all := student{"Gohan",3"Gohan@super.saiya}
+	
+
 }
