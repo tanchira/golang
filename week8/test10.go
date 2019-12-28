@@ -18,4 +18,5 @@ func say(word string) error {
 func main() {
 	ever := say("hello")
 	fmt.Println(ever)
+	ever2 := say("hi")
 }
