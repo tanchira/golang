@@ -15,7 +15,7 @@ func (std student) introduce() {
 
 type pupil struct {
 	address string
-	std     student
+	student
 }
 
 func main() {
