@@ -13,6 +13,4 @@ func main() {
 	not, ok := any.(float64)
 	fmt.Println(not, ok)
 
-	dont := any.(bool)
-	fmt.Println(dont)
 }
