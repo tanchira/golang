@@ -14,4 +14,5 @@ func main() {
 	fmt.Println(not, ok)
 
 	dont := any.(bool)
+	fmt.Println(dont)
 }
