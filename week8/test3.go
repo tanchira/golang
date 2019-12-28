@@ -14,6 +14,7 @@ func main() {
 
 	all := student{"Gohan",3"Gohan@super.saiya"}
 	all2 := student{name:"videl",email:"Videl@daughter.satan"}
+	all3:=student{age :20}
 	
 	
 
