@@ -11,5 +11,4 @@ func main() {
 				fmt.Println(deduct2)
 			}
 	}else
-
-	}
+}
