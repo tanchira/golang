@@ -7,5 +7,5 @@ func main() {
 			fmt.Println(deduct)
 		}
 
-	}
+	}else if 5001 >= 10000
 }
