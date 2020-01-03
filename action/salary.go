@@ -1,5 +1,6 @@
 package main
 
 func main() {
-	salary := 10000
+	salary := 0
+	if 
 }
