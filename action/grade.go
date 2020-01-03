@@ -9,6 +9,6 @@ func main() {
 	} else if 75 >= 66 {
 		fmt.Println("grage B")
 	} else if 65 >= 56 {
-
+		fmt.Println("grage C")
 	}
 }
