@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 
-	salary := 0
+	salary := ("input :", int)
 	deduct := 10000 / 100 * 10
 	deduct2 := 5001 / 100 * 5
 	if salary >= 10000 {
