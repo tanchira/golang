@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	
-	if > 75 {
+	if 75 > 75 {
 		fmt.Println("grade A")
 	} else if  > 66 {
 		fmt.Println("grage B")
