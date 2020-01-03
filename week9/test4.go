@@ -6,5 +6,6 @@ func Average(numbers ...float64) float64 {
 		total = total + v
 
 	}
+	return total / float64(len(numbers))
 
 }
