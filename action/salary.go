@@ -3,8 +3,8 @@ package main
 import "fmt"
 
 func main() {
+	fmt.Println("salary : ")
 	var salary int
-	fmt.Println("salary :", salary)
 	deduct := 10000 / 100 * 10
 	deduct2 := 5001 / 100 * 5
 	if salary >= 10000 {
