@@ -10,6 +10,6 @@ func main() {
 	}else if 5001 >= 10000{
 		deduct2 := 5001 / 100 * 5{
 			fmt.Println(deduct2)
-	}
-}
+		}
+	}else
 }
