@@ -10,6 +10,6 @@ func main() {
 			deduct2 := 5001 / 100 * 5{
 				fmt.Println(deduct2)
 			}
-	}
 	}else
-}
+
+	}
