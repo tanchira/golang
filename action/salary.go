@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	salary := 10000
-	if 10000 > 10000 {
+	if salary > 10000 {
 		deduct := 10000 / 100 * 10
 		fmt.Println(deduct)
 
