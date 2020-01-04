@@ -13,7 +13,7 @@ func main() {
 	fmt.Println("  Summit (ยอดขาย)	  =	  50000	   ")
 	fmt.Println("***********************************")
 	if want >= 50000 {
-		fmt.Println(" Bonus (โบนัส)    =   "Hugesales)
+		fmt.Println(" Bonus (โบนัส)    =   ", Hugesales)
 	} else {
 		(sales)
 	}
