@@ -1,9 +1,11 @@
 package main
 
+import "fmt"
+
 func main() {
 	Hugesales := 50000 / 100 * 30
 	sales := 49999 / 100 * 10
 	if Hugesales >= 50000 {
-		fmt.Println("ให้โบนัส ",Hugesales"บาท")
+		fmt.Println("ให้โบนัส ", Hugesales, "บาท")
 	}
 }
