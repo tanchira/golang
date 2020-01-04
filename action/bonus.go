@@ -8,13 +8,12 @@ func main() {
 	fmt.Println("			Report  Bonus			")
 	fmt.Println("***********************************")
 	var no int
-	fmt.Println("  No (ลำดับพนักงาน)	=  :			 ")
+	fmt.Print("  No (ลำดับพนักงาน)	=	")
 	var name string
+	fmt.Print("  Name (ชื่อพนักงาน)	 =	")
 	var summit int
 	fmt.Scan(&no, &name, &summit)
 
-	fmt.Println("  No (ลำดับพนักงาน)	=  :			 ")
-	fmt.Println("  Name (ชื่อพนักงาน)	 =	:     	  ")
 	fmt.Println("  Summit (ยอดขาย)     =  :    ", summit)
 	fmt.Println("***********************************")
 	if summit >= 50000 {
