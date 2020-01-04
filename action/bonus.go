@@ -9,6 +9,6 @@ func main() {
 	if want >= 50000 {
 		fmt.Println(Hugesales)
 	} else {
-		fmt.Println()
+		fmt.Println(sales)
 	}
 }
