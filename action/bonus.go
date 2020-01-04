@@ -7,6 +7,7 @@ func main() {
 	sales := 49999 / 100 * 10
 	var no int
 	var name string
+	var summit int
 	fmt.Scan(&no)
 
 	fmt.Println("			Report  Bonus			")
