@@ -13,8 +13,8 @@ func main() {
 	fmt.Println("  Summit (ยอดขาย)	  =	  50000	   ")
 	fmt.Println("***********************************")
 	if want >= 50000 {
-		fmt.Println(Hugesales)
+		(Hugesales)
 	} else {
-		fmt.Println(sales)
+		(sales)
 	}
 }
