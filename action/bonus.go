@@ -7,13 +7,12 @@ func main() {
 	sales := 49999 / 100 * 10
 	fmt.Println("			Report  Bonus			")
 	fmt.Println("***********************************")
-
 	var no int
+	fmt.Println("  No (ลำดับพนักงาน)	=  :			 ")
 	var name string
 	var summit int
 	fmt.Scan(&no, &name, &summit)
-	fmt.Println("			Report  Bonus			")
-	fmt.Println("***********************************")
+
 	fmt.Println("  No (ลำดับพนักงาน)	=  :			 ")
 	fmt.Println("  Name (ชื่อพนักงาน)	 =	:     	  ")
 	fmt.Println("  Summit (ยอดขาย)     =  :    ", summit)
