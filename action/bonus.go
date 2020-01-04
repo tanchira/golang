@@ -3,12 +3,12 @@ package main
 import "fmt"
 
 func main() {
-	want := 50000
+	want := 51896
 	Hugesales := want / 100 * 30
 	sales := 49999 / 100 * 10
 	if Hugesales >= 50000 {
-		fmt.Println("ให้โบนัส ", Hugesales, "บาท")
+		fmt.Println(Hugesales, "ให้โบนัส ")
 	} else {
-		fmt.Println("ให้โบนัส ", sales, "บาท")
+		fmt.Println(sales, "ให้โบนัส ")
 	}
 }
