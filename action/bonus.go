@@ -3,9 +3,12 @@ package main
 import "fmt"
 
 func main() {
-	want := 50000
+	want := 50001
 	Hugesales := 50000 / 100 * 30
-	if want >= 50001 {
+	sales := 49999 / 100 * 10
+	if want >= 50000 {
 		fmt.Println(Hugesales)
+	} else {
+		fmt.Println()
 	}
 }
