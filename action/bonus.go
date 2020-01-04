@@ -7,5 +7,7 @@ func main() {
 	sales := 49999 / 100 * 10
 	if Hugesales >= 50000 {
 		fmt.Println("ให้โบนัส ", Hugesales, "บาท")
+	} else {
+		fmt.Println("ให้โบนัส ", sales, "บาท")
 	}
 }
