@@ -8,7 +8,7 @@ func main() {
 	var no int
 	var name string
 	var summit int
-	fmt.Scan(&no)
+	fmt.Scan(&no, &name, &summit)
 
 	fmt.Println("			Report  Bonus			")
 	fmt.Println("***********************************")
