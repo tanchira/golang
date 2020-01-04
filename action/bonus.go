@@ -15,6 +15,6 @@ func main() {
 	if want >= 50000 {
 		fmt.Println(" Bonus (โบนัส)    =   ", Hugesales)
 	} else {
-		fmt.Println(" Bonus (โบนัส)    =   "sales)
+		fmt.Println(" Bonus (โบนัส)    =   ", sales)
 	}
 }
