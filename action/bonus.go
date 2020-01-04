@@ -12,9 +12,9 @@ func main() {
 	var name string
 	fmt.Print("  Name (ชื่อพนักงาน)	 =	")
 	var summit int
+	fmt.Print("  Summit (ยอดขาย)	=	", summit)
 	fmt.Scan(&no, &name, &summit)
 
-	fmt.Println("  Summit (ยอดขาย)     =  :    ", summit)
 	fmt.Println("***********************************")
 	if summit >= 50000 {
 		fmt.Println(" Bonus (โบนัส)         =      ", Hugesales)
