@@ -6,7 +6,9 @@ func main() {
 	Hugesales := 50000 / 100 * 30
 	sales := 49999 / 100 * 10
 	var no int
+	var name string
 	fmt.Scan(&no)
+
 	fmt.Println("			Report  Bonus			")
 	fmt.Println("***********************************")
 	fmt.Println("  No (ลำดับพนักงาน)	= 			 ")
