@@ -10,7 +10,7 @@ func main() {
 	fmt.Println("***********************************")
 	fmt.Println("  No (ลำดับพนักงาน)	=	1		 ")
 	fmt.Println("  Name (ชื่อพนักงาน)	 =	 Bam	  ")
-
+	fmt.Println("  Summit (ยอดขาย)	  =	  50000	   ")
 	if want >= 50000 {
 		fmt.Println(Hugesales)
 	} else {
