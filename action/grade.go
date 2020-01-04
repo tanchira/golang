@@ -3,7 +3,8 @@ package main
 import "fmt"
 
 func main() {
-
+	var score int
+	fmt.Print("ได้คะแนน =")
 	if 76 > 75 {
 		fmt.Println("grade A")
 	} else if 75 >= 66 {
