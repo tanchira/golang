@@ -14,7 +14,6 @@ func main() {
 	var summit int
 	fmt.Print("  Summit (ยอดขาย)	=	", summit)
 	fmt.Scan(&no, &name, &summit)
-
 	fmt.Println("***********************************")
 	if summit >= 50000 {
 		fmt.Println(" Bonus (โบนัส)         =      ", Hugesales)
