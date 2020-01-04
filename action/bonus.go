@@ -9,6 +9,7 @@ func main() {
 	fmt.Println("			Report  Bonus			")
 	fmt.Println("***********************************")
 	fmt.Println("  No (ลำดับพนักงาน)	=	1		 ")
+	fmt.Println("  Name (ชื่อพนักงาน)	 =	 Bam	  ")
 
 	if want >= 50000 {
 		fmt.Println(Hugesales)
