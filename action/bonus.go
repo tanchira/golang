@@ -8,6 +8,7 @@ func main() {
 	sales := 49999 / 100 * 10
 	fmt.Println("			Report  Bonus			")
 	fmt.Println("***********************************")
+	fmt.Println("  No (ลำดับพนักงาน)	=	1		 ")
 
 	if want >= 50000 {
 		fmt.Println(Hugesales)
