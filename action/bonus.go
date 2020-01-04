@@ -14,7 +14,7 @@ func main() {
 	fmt.Println("  Name (ชื่อพนักงาน)	 :	")
 	fmt.Scan(&name)
 	var summit int
-	fmt.Println("  Summit (ยอดขาย)	:	", summit)
+	fmt.Println("  Summit (ยอดขาย)	:	")
 	fmt.Scan(&summit)
 	fmt.Println("***********************************")
 	if summit >= 50000 {
