@@ -5,4 +5,5 @@ package myMath
 	for _,v := range numbers{
 		total = total + v
 	}
+	return total / float64(len(numbers))
 }
