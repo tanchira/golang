@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func sum(c chan int, number ...int) {
 	sum := 0
 	for _, v := range number {
@@ -15,5 +17,6 @@ func printer(c chan int) {
 	go sum(c, 10, 11)
 
 	var input string
+	fmt.Scan(&input)
 
 }
