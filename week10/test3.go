@@ -13,5 +13,5 @@ func main() {
 	var inputone int
 	var inputtoo string
 
-	fmt.Scanln(&inputtoo)
+	fmt.Scanln(&inputone, &inputtoo)
 }
