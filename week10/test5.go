@@ -7,3 +7,6 @@ func main() {
 		
 	}
 }()
+go func ()  {
+	
+}
