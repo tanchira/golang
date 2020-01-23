@@ -2,16 +2,15 @@ package main
 
 import "fmt"
 
-func test(txt int, txt2 string) {
+func test(txt string) {
 	for First := 1; First < 4; First++ {
-		fmt.Println(First, txt2)
+		fmt.Println(First, txt)
 	}
 
 }
 func main() {
-	go test(12, "bam")
-	var inputone int
-	var inputtwo string
+	go test("bam")
+	var input string
 
-	fmt.Scanln(&inputone, &inputtwo)
+	fmt.Scanln(&input)
 }
