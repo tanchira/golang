@@ -15,5 +15,5 @@ func incrment(data *int, mutex *sync.Mutex, wg *sync.WaitGroup) {
 	fmt.Println(time.Since(start), "Increment to :", *data)
 }
 func main() {
-
+	var mutex sync.Mutex
 }
