@@ -16,5 +16,6 @@ func main() {
 	var wg sync.WaitGroup
 	wg.Add(2)
 	go say("Hello", 2, &wg)
+	go say("Hi", 1, &wg)
 
 }
