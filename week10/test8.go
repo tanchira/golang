@@ -19,7 +19,7 @@ func read(data *int, mutex *sync.Mutex, wg *sync.WaitGroup) {
 	defer wg.Done()
 	defer mutex.Unlock()
 	mutex.Lock()
-	*data++
+	fmt.Println(time.Since(start), "Data :", *data)
 }
 func main() {
 	var mutex sync.Mutex
