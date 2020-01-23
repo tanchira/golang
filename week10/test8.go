@@ -7,5 +7,6 @@ import (
 
 func incrment(data *int, mutex *sync.Mutex, wg *sync.WaitGroup) {
 	start := time.Now()
+	defer wg.Done()
 
 }
