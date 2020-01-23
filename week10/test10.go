@@ -21,10 +21,4 @@ func main()  {
 	var input string
 	fmt.Scan(&input)
 }
-	
 
-	
-	
-	
-
-}
