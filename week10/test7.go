@@ -14,5 +14,6 @@ func test(txt string, sleep time.Duration, wg *sync.WaitGroup) {
 }
 func main() {
 	var wg sync.WaitGroup
+	wg.Add(5)
 
 }
