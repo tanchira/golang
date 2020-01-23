@@ -10,5 +10,5 @@ func test(txt string) {
 }
 func main() {
 	go test("bam")
-
+	fmt.Println(test)
 }
