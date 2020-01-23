@@ -14,4 +14,6 @@ func printer(c chan int) {
 	go sum(c, 1, 2, 3)
 	go sum(c, 10, 11)
 
+	var input string
+
 }
