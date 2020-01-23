@@ -16,10 +16,11 @@ func main()  {
 	go printer(c)
 	go printer(c)
 	go sum(c, 1, 2, 3)
+	go sum(c, 10, 11)
 }
 	
 
-	go sum(c, 10, 11)
+	
 
 	var input string
 	fmt.Scan(&input)
