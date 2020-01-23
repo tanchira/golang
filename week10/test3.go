@@ -8,3 +8,6 @@ func test(txt int) {
 	}
 
 }
+func main() {
+
+}
