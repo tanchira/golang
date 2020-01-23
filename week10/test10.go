@@ -8,3 +8,6 @@ func sum(c chan int, number ...int) {
 	c <- sum
 
 }
+func printer(c chan int) {
+
+}
