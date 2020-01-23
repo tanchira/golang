@@ -24,6 +24,6 @@ func main() {
 		go incrment(&data, &mutex, &wg)
 	}
 	for i := 0; i < 5; i++ {
-
+		go read(&data, &mutex, &wg)
 	}
 }
