@@ -15,8 +15,8 @@ func test(txt string, sleep time.Duration, wg *sync.WaitGroup) {
 func main() {
 	var wg sync.WaitGroup
 	wg.Add(3)
-	go test("bam", 1, &wg)
-	go test("thanjira", 2, &wg)
-	go test("Peawkrathok", 3, &wg)
+	go test("bam", 2, &wg)
+	go test("thanjira", 3, &wg)
+	go test("Peawkrathok", 1, &wg)
 	wg.Wait()
 }
