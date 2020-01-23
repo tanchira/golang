@@ -9,3 +9,6 @@ func send1(first <-chan string) {
 func receivel(first <-chan string) {
 	fmt.Println(<-first)
 }
+func send2(first chan<- string) {
+
+}
