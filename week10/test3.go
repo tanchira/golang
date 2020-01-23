@@ -10,5 +10,7 @@ func test(txt int, txt2 string) {
 }
 func main() {
 	go test(12, "bam")
-
+	var iuput int
+	var inputtoo string
+	fmt.Scanln(&a)
 }
