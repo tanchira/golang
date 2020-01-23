@@ -13,5 +13,6 @@ func send2(first chan<- string) {
 	first <- "Hello"
 }
 func receive2(first chan<- string) {
+	fmt.Println(<-first)
 
 }
