@@ -12,3 +12,6 @@ func receivel(first <-chan string) {
 func send2(first chan<- string) {
 	first <- "Hello"
 }
+func receive2(first chan<- string) {
+
+}
