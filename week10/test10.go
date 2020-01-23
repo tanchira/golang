@@ -10,5 +10,6 @@ func sum(c chan int, number ...int) {
 }
 func printer(c chan int) {
 	go printer(c)
+	go printer(c)
 
 }
