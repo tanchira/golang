@@ -9,5 +9,6 @@ func test(txt int) {
 
 }
 func main() {
+	go test("Hello")
 
 }
