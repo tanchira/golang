@@ -6,4 +6,4 @@ func main() {
 		data = 20
 		
 	}
-}
+}()
