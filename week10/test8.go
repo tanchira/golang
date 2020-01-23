@@ -1,7 +1,11 @@
 package main
 
-import "sync"
+import (
+	"sync"
+	"time"
+)
 
 func incrment(data *int, mutex *sync.Mutex, wg *sync.WaitGroup) {
+	start := time.Now()
 
 }
