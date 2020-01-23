@@ -21,7 +21,8 @@ func read(data *int, mutex *sync.Mutex, wg *sync.WaitGroup) {
 	mutex.Lock()
 	fmt.Println(time.Since(start), "Data :", *data)
 }
-func main() {
+
+/*func main() {
 	var mutex sync.Mutex
 	var wg sync.WaitGroup
 	data := 10
@@ -34,4 +35,4 @@ func main() {
 		go read(&data, &mutex, &wg)
 	}
 	wg.Wait()
-}
+}*/
