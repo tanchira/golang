@@ -12,7 +12,9 @@ func sum(c chan int, number ...int) {
 }
 func printer(c chan int) {
 	number := <-c
-
+func main()  {
+	
+}
 	go printer(c)
 	go printer(c)
 	go sum(c, 1, 2, 3)
