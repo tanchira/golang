@@ -16,5 +16,6 @@ func main() {
 	var wg sync.WaitGroup
 	wg.Add(5)
 	go test("bam", 5, &wg)
+	go test("thanjira", 4, &wg)
 
 }
