@@ -12,3 +12,6 @@ func test(txt string, sleep time.Duration, wg *sync.WaitGroup) {
 	time.Sleep(time.Millisecond * sleep)
 
 }
+func main() {
+
+}
