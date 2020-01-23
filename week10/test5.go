@@ -6,9 +6,9 @@ import (
 )
 
 func main() {
-	data := 10
+	data := 20
 	go func() {
-		data = 20
+		data = 10
 	}()
 
 	go func() {
