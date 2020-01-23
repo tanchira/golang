@@ -12,7 +12,8 @@ func sum(c chan int, number ...int) {
 }
 func printer(c chan int) {
 	number := <-c
-func main()  {
+}
+func main() {
 	c := make(chan int)
 	go printer(c)
 	go printer(c)
@@ -21,4 +22,3 @@ func main()  {
 	var input string
 	fmt.Scan(&input)
 }
-
