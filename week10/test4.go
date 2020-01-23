@@ -6,7 +6,7 @@ import (
 )
 
 func say(txt string) {
-	for i := 0; i <= 2; i++ {
+	for i := 1; i <= 2; i++ {
 		fmt.Println(time.Now(), ":", i, ":", txt)
 		time.Sleep(time.Millisecond)
 	}
