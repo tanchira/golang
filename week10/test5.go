@@ -10,4 +10,5 @@ func main() {
 go func ()  {
 	fmt.Println(data)
 	
-}
+}()
+time.Sleep(time.Millisecond)
