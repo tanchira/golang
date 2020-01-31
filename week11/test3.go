@@ -14,4 +14,7 @@ func main() {
 	defer file.Close()
 
 	stat, err := file.Stat()
+	if err != nil {
+		fmt.Println(err)
+	}
 }
