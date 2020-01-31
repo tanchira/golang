@@ -11,5 +11,5 @@ func main() {
 		return
 	}
 	srt := string(bs)
-	fmt.Println(srt)
+	fmt.Println("hello", srt)
 }
