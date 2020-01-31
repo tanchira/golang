@@ -22,4 +22,6 @@ func main() {
 	p := make([]byte, fileSize)
 	file.Read(p)
 
+	str := string(p)
+
 }
