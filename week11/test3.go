@@ -16,5 +16,7 @@ func main() {
 	stat, err := file.Stat()
 	if err != nil {
 		fmt.Println(err)
+		return
+
 	}
 }
