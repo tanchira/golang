@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	reader := strings.NewReader("Hello Tanchira")
+	reader := strings.NewReader("HelloTanchira")
 	text := make([]byte, 2)
 	for {
 		n, err := reader.Read(text)
