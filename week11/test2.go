@@ -15,6 +15,9 @@ func main() {
 			break
 		}
 		n, err := index.Read(text)
+		if err == io.EOF {
+			break
+		}
 
 	}
 
