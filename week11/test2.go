@@ -15,6 +15,7 @@ func main() {
 		if err == io.EOF {
 			break
 		}
+		n, err := reader.Read(text2)
 
 	}
 
