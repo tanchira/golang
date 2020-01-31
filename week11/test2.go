@@ -8,7 +8,7 @@ import (
 
 func main() {
 	reader := strings.NewReader("Hello Tanchira")
-	text := make([]byte, 3)
+	text := make([]byte, 2)
 	for {
 		n, err := reader.Read(text)
 		if err == io.EOF {
