@@ -19,4 +19,5 @@ func main() {
 		return
 	}
 	fileSize := stat.Size()
+	p := make([]byte, fileSize)
 }
