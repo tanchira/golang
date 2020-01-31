@@ -11,10 +11,10 @@ func main() {
 	text := make([]byte, 2)
 	for {
 		n, err := reader.Read(text)
-		n, err := index.Read(text)
 		if err == io.EOF {
 			break
 		}
+		n, err := index.Read(text)
 
 	}
 
