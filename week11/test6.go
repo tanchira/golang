@@ -10,4 +10,7 @@ func main() {
 	defer dir.Close()
 
 	fileInfos, err := dir.Readdir(-1)
+	if err != nil {
+		return
+	}
 }
