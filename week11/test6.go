@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	dir, err := os.Open(".")
+	dir, err := os.Open(".go")
 	if err != nil {
 		return
 	}
