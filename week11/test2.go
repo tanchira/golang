@@ -1,6 +1,9 @@
 package main
 
-import "strings"
+import (
+	"io"
+	"strings"
+)
 
 func main() {
 	reader := strings.NewReader("Hello")
@@ -8,6 +11,9 @@ func main() {
 	text := make([]byte, 2)
 	for {
 		n, err := reader.Read(text)
+		if err == io.EOF {
+
+		}
 	}
 
 }
