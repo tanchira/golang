@@ -9,6 +9,7 @@ func main() {
 	reader := strings.NewReader("Hello")
 	index := strings.NewReader("Tanchira")
 	text := make([]byte, 2)
+	text2 := make([]byte, 2)
 	for {
 		n, err := reader.Read(text)
 		if err == io.EOF {
@@ -16,5 +17,5 @@ func main() {
 		}
 
 	}
-	text2 := make([]byte, 2)
+
 }
