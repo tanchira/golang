@@ -14,11 +14,7 @@ func main() {
 		if err == io.EOF {
 			break
 		}
-		n, err := index.Read(text)
-		if err == io.EOF {
-			break
-		}
 
 	}
-
+	text2 := make([]byte, 2)
 }
