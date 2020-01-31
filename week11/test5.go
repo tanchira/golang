@@ -10,4 +10,5 @@ func main() {
 	defer file.Close()
 
 	file.WriteString("hello \n")
+	file.WriteString("i am myFile,txt")
 }
