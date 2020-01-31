@@ -14,6 +14,6 @@ func main() {
 		return
 	}
 	for _, fi := range fileInfos {
-
+		filename := fi.Name()
 	}
 }
