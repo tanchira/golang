@@ -23,5 +23,6 @@ func main() {
 	file.Read(p)
 
 	str := string(p)
+	fmt.Println(str)
 
 }
