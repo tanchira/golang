@@ -16,5 +16,9 @@ func getDrives() (r []string) {
 
 func main() {
 	dir, err := os.Open(".go")
+	if err != nil {
+		return
+	}
+	defer dir.Close()
 
 }
