@@ -11,4 +11,5 @@ func main() {
 
 	file.WriteString("Hello \n")
 	file.WriteString("my name is :  tanchira peawkrathok  \n")
+	file.WriteAt(19 \n)
 }
