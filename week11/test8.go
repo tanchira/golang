@@ -9,5 +9,6 @@ func main() {
 	}
 	defer file.Close()
 
-	file.WriteString("Hello")
+	file.WriteString("Hello \n")
+	file.WriteString("my name is :  tanchira peawkrathok  \n")
 }
