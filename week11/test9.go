@@ -13,3 +13,7 @@ func getDrives() (r []string) {
 	}
 	return
 }
+
+func main() {
+
+}
