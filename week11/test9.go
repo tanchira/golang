@@ -15,6 +15,7 @@ func getDrives() (r []string) {
 }
 
 func main() {
+	drives := string[]
 	for _, text := range drives {
 
 	}
