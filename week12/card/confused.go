@@ -15,6 +15,7 @@ func main() {
 	}
 	fmt.Println(henddis)
 	pick()
+	Ckeckcard()
 	fmt.Print(pair)
 	if pair == 3 {
 
@@ -30,6 +31,7 @@ func pick() {
 func card() {
 	henddis := make([]string, 6)
 	var pair int
+	Ckeckcard()
 	if pair == 3 {
 		var throw int
 		fmt.Print(": ")
