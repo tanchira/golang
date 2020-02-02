@@ -1,6 +1,9 @@
 package card
 
-import "math/rand"
+import (
+	"fmt"
+	"math/rand"
+)
 
 func main() int {
 	var pair int
@@ -10,4 +13,9 @@ func main() int {
 		renn := num[rand.Intn(len(num))]
 		ren = append(ren, renn)
 	}
+	fmt.Println(ren)
+}
+
+func cke() {
+
 }
