@@ -54,4 +54,5 @@ func Ckeckcard() int {
 			}
 		}
 	}
+	return pair
 }
