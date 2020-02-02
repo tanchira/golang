@@ -14,7 +14,7 @@ func main() int {
 		ren = append(ren, hend)
 	}
 	fmt.Println(ren)
-	pick()
+	fmt.Println(pair)
 
 }
 
