@@ -33,5 +33,6 @@ func card() {
 	if pair == 3 {
 		var throw int
 		fmt.Scan(&throw)
+		henddis[throw] = henddis[len(henddis)-1]
 	}
 }
