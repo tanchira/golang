@@ -31,6 +31,6 @@ func card() {
 	henddis := make([]string, 6)
 	var pair int
 	if pair == 3 {
-
+		var throw int
 	}
 }
