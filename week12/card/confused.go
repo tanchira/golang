@@ -36,6 +36,7 @@ func card() {
 		fmt.Scan(&throw)
 		henddis[throw] = henddis[len(henddis)-1]
 		henddis[len(henddis)-1] = ""
+		henddis = henddis[:len(henddis)-1]
 		fmt.Println(henddis)
 	}
 }
