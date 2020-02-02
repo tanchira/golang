@@ -13,11 +13,3 @@ func getDrives() (r []string) {
 	}
 	return
 }
-
-func main() {
-	drives := getDrive()
-	for _, text := range drives {
-
-	}
-
-}
