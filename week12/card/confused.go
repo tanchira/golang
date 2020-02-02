@@ -32,5 +32,6 @@ func card() {
 	var pair int
 	if pair == 3 {
 		var throw int
+		fmt.Scan(&throw)
 	}
 }
