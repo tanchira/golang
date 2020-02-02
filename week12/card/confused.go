@@ -16,6 +16,9 @@ func main() {
 	fmt.Println(henddis)
 	pick()
 	fmt.Print(pair)
+	if pair == 3 {
+
+	}
 }
 func pick() {
 	num := []string{"A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"}
