@@ -32,9 +32,9 @@ func card() {
 	henddis := make([]string, 6)
 	var pair int
 	Ckeckcard()
-	if pair == 3 {
+	if pair != 3 {
 		var throw int
-		fmt.Print(": ")
+		fmt.Print("start : ")
 		fmt.Scan(&throw)
 		henddis[throw] = henddis[len(henddis)-1]
 		henddis[len(henddis)-1] = ""
