@@ -32,6 +32,7 @@ func card() {
 	var pair int
 	if pair == 3 {
 		var throw int
+		fmt.Print(": ")
 		fmt.Scan(&throw)
 		henddis[throw] = henddis[len(henddis)-1]
 		henddis[len(henddis)-1] = ""
