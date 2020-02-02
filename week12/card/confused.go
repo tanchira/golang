@@ -10,7 +10,7 @@ func card() {
 	for i := 0; i < 5; i++ {
 		hend := num[rand.Intn(len(num))]
 	}
-
+	fmt.Println(hend)
 }
 
 func main() int {
