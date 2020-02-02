@@ -11,7 +11,7 @@ func main() int {
 	ren := make([]string, 6)
 	for i := 0; i < 5; i++ {
 		hend := num[rand.Intn(len(num))]
-		ren = append(ren, hand)
+		ren = append(ren, hend)
 	}
 	fmt.Println(ren)
 
