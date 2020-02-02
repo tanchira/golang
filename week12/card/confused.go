@@ -44,5 +44,5 @@ func card() {
 }
 
 func Ckeckcard() int {
-
+	var pair int
 }
