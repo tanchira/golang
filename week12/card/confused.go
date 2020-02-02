@@ -42,3 +42,7 @@ func card() {
 		fmt.Print("over")
 	}
 }
+
+func Ckeckcard() int {
+
+}
