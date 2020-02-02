@@ -5,7 +5,7 @@ import (
 	"math/rand"
 )
 
-func main() int {
+func pick() int {
 	var pair int
 	num := []string{"A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"}
 	ren := make([]string, 6)
@@ -14,6 +14,7 @@ func main() int {
 		ren = append(ren, renn)
 	}
 	fmt.Println(ren)
+
 }
 
 func cke() {
