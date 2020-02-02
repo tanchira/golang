@@ -6,6 +6,7 @@ import (
 )
 
 func main() {
+	var pair int
 	num := []string{"A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"}
 	henddis := make([]string, 6)
 	for i := 0; i < 5; i++ {
@@ -13,6 +14,8 @@ func main() {
 		henddis = append(henddis, hend)
 	}
 	fmt.Println(henddis)
+	pick()
+	fmt.Print(pair)
 }
 func pick() {
 	num := []string{"A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"}
