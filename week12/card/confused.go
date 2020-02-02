@@ -49,7 +49,9 @@ func Ckeckcard() int {
 	henddis := make([]string, 6)
 	for i := 0; i < len(henddis); i++ {
 		for y := i + 1; y < len(henddis); y++ {
-
+			if num[i] == num[y] {
+				pair++
+			}
 		}
 	}
 }
