@@ -34,6 +34,7 @@ func card() {
 		var throw int
 		fmt.Scan(&throw)
 		henddis[throw] = henddis[len(henddis)-1]
+		henddis[len(henddis)-1] = ""
 		fmt.Println(henddis)
 	}
 }
