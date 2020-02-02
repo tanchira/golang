@@ -38,5 +38,7 @@ func card() {
 		henddis[len(henddis)-1] = ""
 		henddis = henddis[:len(henddis)-1]
 		fmt.Println(henddis)
+	} else {
+		fmt.Print("over")
 	}
 }
