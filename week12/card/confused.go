@@ -14,3 +14,6 @@ func card() {
 	}
 	fmt.Println(henddis)
 }
+func pick() {
+
+}
