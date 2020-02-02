@@ -26,3 +26,7 @@ func pick() {
 	fmt.Println(newcard)
 
 }
+
+func card() {
+	henddis := make([]string, 6)
+}
