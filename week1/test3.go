@@ -8,4 +8,6 @@ func main() {
 	fmt.Println("|     time    |   monday   |   Tuesday   |  Wednesday  |  Thursday  |  Friday  |")
 	fmt.Println("________________________________________________________________________________")
 	fmt.Println("|             |            |             |             |            |          |")
+	fmt.Println("|   morning   |  compro    |    math     |             |            |   sport  |")
+
 }
