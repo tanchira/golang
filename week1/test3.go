@@ -10,4 +10,6 @@ func main() {
 	fmt.Println("|             |            |             |             |            |          |")
 	fmt.Println("|   morning   |  compro    |    math     |             |            |   sport  |")
 	fmt.Println("________________________________________________________________________________")
+	fmt.Println("|             |            |             |             |            |          |")
+
 }
