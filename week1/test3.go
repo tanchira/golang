@@ -11,5 +11,5 @@ func main() {
 	fmt.Println("|   morning   |  compro    |    math     |             |            |   sport  |")
 	fmt.Println("________________________________________________________________________________")
 	fmt.Println("|             |            |             |             |            |          |")
-
+	fmt.Println("|  afternoon  |  social    |  calculus   |   english   |            |          |")
 }
