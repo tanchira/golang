@@ -16,5 +16,6 @@ func main() {
 	var summit int
 	fmt.Print("Summit(ยอดขาย)  :  ")
 	fmt.Scan(&summit)
+	fmt.Println("*************************************************")
 
 }
