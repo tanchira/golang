@@ -11,5 +11,6 @@ func main() {
 	fmt.Print("No(ลำดับพนักงาน)  :  ")
 	fmt.Scan(&no)
 	var name string
+	fmt.Print("Name (ชื่อพนักงาน) :  ")
 
 }
