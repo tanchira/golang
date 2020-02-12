@@ -15,5 +15,6 @@ func main() {
 	fmt.Scan(&name)
 	var summit int
 	fmt.Print("Summit(ยอดขาย)  :  ")
+	fmt.Scan(&summit)
 
 }
