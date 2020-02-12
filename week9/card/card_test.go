@@ -6,6 +6,8 @@ func Testallcard(t *testing.T) {
 	testCases := []struct {
 		input int
 		want  string
+	}{
+		{12, "3 ดอกจิก"},
 	}
 
 }
