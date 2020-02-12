@@ -7,5 +7,6 @@ func main() {
 	sales := 49999 / 100 * 10
 	fmt.Println("			Report  Bonus			")
 	fmt.Println("*************************************************")
+	var no int
 
 }
