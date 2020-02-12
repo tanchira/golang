@@ -7,5 +7,6 @@ func main() {
 	fmt.Print("ได้คะแนน =  ")
 	fmt.Scan(&score)
 	if score > 75 {
+		fmt.Println("grade A")
 
 }
