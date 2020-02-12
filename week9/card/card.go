@@ -6,3 +6,7 @@ type card struct {
 	store  string
 	symbol string
 }
+
+func allcard(want int) string {
+
+}
