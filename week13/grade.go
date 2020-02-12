@@ -8,10 +8,12 @@ func main() {
 	fmt.Scan(&score)
 	if score > 75 {
 		fmt.Println("grade A")
-		} else if score >= 66 {
-			fmt.Println("grage B")
-			} else if score >= 56 {
-				fmt.Println("grage C")
-				} else if score >= 50 {
+	} else if score >= 66 {
+		fmt.Println("grage B")
+	} else if score >= 56 {
+		fmt.Println("grage C")
+	} else if score >= 50 {
+		fmt.Println("grage D")
+	
 
 }
