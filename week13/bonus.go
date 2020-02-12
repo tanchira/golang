@@ -19,7 +19,8 @@ func main() {
 	fmt.Println("*************************************************")
 	if summit >= 50000 {
 		fmt.Println(" Bonus (โบนัส)         =      ", Hugesales)
-		} else {
-			fmt.Println(" Bonus (โบนัส)         =      ", sales)
+	} else {
+		fmt.Println(" Bonus (โบนัส)         =      ", sales)
+	}
 
 }
