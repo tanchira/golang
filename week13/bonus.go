@@ -8,5 +8,6 @@ func main() {
 	fmt.Println("			Report  Bonus			")
 	fmt.Println("*************************************************")
 	var no int
+	fmt.Print("No(ลำดับพนักงาน)  :  ")
 
 }
