@@ -4,5 +4,6 @@ import "testing"
 
 func Testallcard(t *testing.T) {
 	testCases := []struct {
+		input int
 
 }
