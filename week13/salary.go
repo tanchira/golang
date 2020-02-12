@@ -11,5 +11,7 @@ func main() {
 	if salary >= 10000 {
 		fmt.Println("หักภาษีทั้งหมด", deduct)
 	} else if salary <= 5001 {
+		fmt.Println("ให้หักภาษีทั้งหมด", deduct2)
+	}
 
 }
