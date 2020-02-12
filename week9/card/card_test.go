@@ -62,5 +62,6 @@ func Testallcard(t *testing.T) {
 	}
 	for _, test := range testCases {
 		got := allcard(test.input)
+		if got != test.want {
 
 }
