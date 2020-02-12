@@ -17,5 +17,6 @@ func main() {
 	fmt.Print("Summit(ยอดขาย)  :  ")
 	fmt.Scan(&summit)
 	fmt.Println("*************************************************")
+	if summit >= 50000 {
 
 }
