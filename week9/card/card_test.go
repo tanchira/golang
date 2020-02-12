@@ -60,5 +60,6 @@ func Testallcard(t *testing.T) {
 		{9, "3 โพธิ์แดง"},
 		{14, "4 โพธิ์ดำ"},
 	}
+	for _, test := range testCases {
 
 }
