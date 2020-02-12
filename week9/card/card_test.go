@@ -8,6 +8,7 @@ func Testallcard(t *testing.T) {
 		want  string
 	}{
 		{12, "3 ดอกจิก"},
+		{1, "A โพธิ์แดง"},
 	}
 
 }
