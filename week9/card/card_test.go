@@ -63,5 +63,6 @@ func Testallcard(t *testing.T) {
 	for _, test := range testCases {
 		got := allcard(test.input)
 		if got != test.want {
+			t.Errorf("\nunexpected\n\tgot: %v\n\twant: %v", got, test.want)
 
 }
