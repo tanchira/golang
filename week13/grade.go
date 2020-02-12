@@ -14,6 +14,6 @@ func main() {
 		fmt.Println("grage C")
 	} else if score >= 50 {
 		fmt.Println("grage D")
-	
+	}
 
 }
