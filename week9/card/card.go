@@ -1,5 +1,7 @@
 package card
 
+import "fmt"
+
 var store [53]card
 
 type card struct {
@@ -60,5 +62,7 @@ func allcard(want int) string {
 	store[49] = card{"K", "โพธิ์ดำ"}
 	store[50] = card{"K", "ข้าวหลามตัด"}
 	store[51] = card{"K", "ดอกจิก"}
+
+	return fmt.Sprintf("%v", store[(want%52)-1])
 
 }
