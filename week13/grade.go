@@ -10,5 +10,6 @@ func main() {
 		fmt.Println("grade A")
 		} else if score >= 66 {
 			fmt.Println("grage B")
+			} else if score >= 56 {
 
 }
