@@ -11,5 +11,6 @@ func hi(txt string) {
 func main() {
 	go hi("hello")
 	var input string
+	fmt.Println(&input)
 
 }
