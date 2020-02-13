@@ -10,4 +10,5 @@ ReadInput:
 	if a < 50 {
 		goto ReadInput
 	}
+	fmt.Println(a)
 }
