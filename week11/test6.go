@@ -15,3 +15,6 @@ func increment(data *int, mutex *sync.Mutex, wg *sync.WaitGroup) {
 	fmt.Println(time.Since(start), "Increment to:", *data)
 
 }
+func resd(data *int, mutex *sync.Mutex, wg *sync.WaitGroup) {
+
+}
