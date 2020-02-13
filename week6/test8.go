@@ -8,5 +8,5 @@ func main() {
 		continue
 		fmt.Println("after")
 	}
-
+	fmt.Println("next statment")
 }
