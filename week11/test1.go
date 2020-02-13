@@ -9,5 +9,5 @@ func say(txt string) {
 }
 
 func main() {
-
+	go say("Hello")
 }
