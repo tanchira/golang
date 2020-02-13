@@ -7,6 +7,9 @@ func main() {
 	for {
 		fmt.Println(text)
 		text = text + 1
+		if text >= 3 {
+			break
+		}
 	}
 
 }
