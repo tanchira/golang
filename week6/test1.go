@@ -3,8 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	for essay := 1; essay < 21; essay++ {
-		fmt.Println(essay)
+	for text := 1; text < 21; text++ {
+		fmt.Println(text)
 	}
 
 }
