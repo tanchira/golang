@@ -3,8 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	essay := []string{"a", "b", "c", "d", "e"}
-	for _, essay := range essay {
-		fmt.Println(essay)
+	text := []string{"a", "b", "c", "d", "e"}
+	for _, text := range text {
+		fmt.Println(text)
 	}
 }
