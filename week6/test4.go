@@ -5,7 +5,7 @@ func main() {
 		if essay%2 == 0 {
 			fmt.Println(essay, "even")
 		}else {
-			
+			fmt.Println(essay, "odd")
 		}
 
 	}
