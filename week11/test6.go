@@ -20,5 +20,6 @@ func resd(data *int, mutex *sync.Mutex, wg *sync.WaitGroup) {
 	defer wg.Done()
 	defer mutex.Unlock()
 	mutex.Lock()
+	fmt.Println(time.Since(start), "Data =", *data)
 
 }
