@@ -3,11 +3,11 @@ package main
 import "fmt"
 
 func main() {
-	for essay := 1; essay <= 20; essay = essay + 1 {
-		if essay%2 == 0 {
-			fmt.Println(essay, "even")
+	for text := 1; text <= 20; text = text + 1 {
+		if text%2 == 0 {
+			fmt.Println(text, "even")
 		} else {
-			fmt.Println(essay, "odd")
+			fmt.Println(text, "odd")
 		}
 
 	}
