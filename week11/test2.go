@@ -9,5 +9,6 @@ func hi(txt string) {
 }
 
 func main() {
+	go hi("hello")
 
 }
