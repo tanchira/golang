@@ -8,6 +8,6 @@ ReadInput:
 	fmt.Print("type number :")
 	fmt.Scan(&a)
 	if a < 50 {
-
+		goto ReadInput
 	}
 }
