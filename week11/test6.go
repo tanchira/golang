@@ -34,6 +34,6 @@ func main() {
 		go increment(&data, &mutex, &wg)
 	}
 	for i := 0; i < 5; i++ {
-
+		go read(&data, &mutex, &wg)
 	}
 }
