@@ -3,9 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	essay := 1
-	for essay < 21 {
-		fmt.Println(essay)
-		essay = essay + 1
+	text := 1
+	for text < 21 {
+		fmt.Println(text)
+		text = text + 1
 	}
 }
