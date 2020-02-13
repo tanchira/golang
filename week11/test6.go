@@ -23,3 +23,7 @@ func resd(data *int, mutex *sync.Mutex, wg *sync.WaitGroup) {
 	fmt.Println(time.Since(start), "Data =", *data)
 
 }
+
+func main() {
+
+}
