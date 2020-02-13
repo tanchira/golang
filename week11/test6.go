@@ -30,4 +30,8 @@ func main() {
 	data := 10
 	wg.Add(10)
 
+	for i := 0; i < 5; i++ {
+
+	}
+
 }
