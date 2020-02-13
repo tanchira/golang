@@ -5,4 +5,7 @@ func main() {
 	go func() {
 		data = 20
 	}()
+	go func ()  {
+		
+	}
 }
