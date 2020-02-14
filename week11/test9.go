@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-func printer(tick, boom <-chan time.Time) {
+func prin(tick, boom <-chan time.Time) {
 	for {
 		select {
 		case <-tick:
