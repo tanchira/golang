@@ -1,6 +1,9 @@
 package main
 
-import "sync"
+import (
+	"fmt"
+	"sync"
+)
 
 func generteInt(min, max int, ch chan int, wg *sync.WaitGroup) {
 	defer wg.Done()
@@ -24,5 +27,6 @@ func main() {
 	for i := range ch {
 		sum += i
 	}
+	fmt.Println(sum)
 
 }
