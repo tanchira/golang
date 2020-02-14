@@ -15,3 +15,6 @@ func printer(c chan int) {
 	fmt.Println(number)
 
 }
+func main() {
+
+}
