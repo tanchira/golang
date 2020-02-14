@@ -18,4 +18,5 @@ func printer(c chan int) {
 func main() {
 	c := make(chan int)
 	go printer(c)
+	go printer(c)
 }
