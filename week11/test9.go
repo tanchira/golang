@@ -21,5 +21,6 @@ func prin(tick, boom <-chan time.Time) {
 }
 
 func main() {
+	tick := time.Tick(100 * time.Millisecond)
 
 }
