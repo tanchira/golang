@@ -15,5 +15,6 @@ func main() {
 	var wg sync.WaitGroup
 	wg.Add(2)
 	go generteInt(10, 20, ch, &wg)
+	go generteInt(50, 200, ch, &wg)
 
 }
