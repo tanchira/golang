@@ -20,5 +20,6 @@ func main() {
 		wg.Wait()
 		close(ch)
 	}()
+	sum := 0
 
 }
