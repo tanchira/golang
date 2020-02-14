@@ -1,5 +1,7 @@
 package main
 
-func main() {
+import "time"
+
+func printer(tick, boom <-chan time.Time) {
 
 }
