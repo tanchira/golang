@@ -15,7 +15,7 @@ func prin(tick, boom <-chan time.Time) {
 			return
 		default:
 			fmt.Println("    .")
-			time.Sleep(20 * time.Millisecond)
+			time.Sleep(50 * time.Millisecond)
 		}
 	}
 }
