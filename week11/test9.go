@@ -18,5 +18,8 @@ func prin(tick, boom <-chan time.Time) {
 			time.Sleep(20 * time.Millisecond)
 		}
 	}
+}
+
+func main() {
 
 }
