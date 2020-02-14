@@ -14,6 +14,7 @@ func printer(tick, boom <-chan time.Time) {
 			fmt.Println("Boom!")
 			return
 		default:
+			fmt.Println("    .")
 		}
 	}
 
