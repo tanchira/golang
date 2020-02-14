@@ -21,5 +21,8 @@ func main() {
 		close(ch)
 	}()
 	sum := 0
+	for i := range ch {
+
+	}
 
 }
