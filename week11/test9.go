@@ -12,6 +12,7 @@ func printer(tick, boom <-chan time.Time) {
 			fmt.Println("tick.")
 		case <-boom:
 			fmt.Println("Boom!")
+			return
 		}
 	}
 
