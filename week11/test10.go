@@ -17,7 +17,7 @@ func main() {
 	go generteInt(10, 20, ch, &wg)
 	go generteInt(50, 200, ch, &wg)
 	go func ()  {
-		
+		wg.Wait()
 	}
 
 }
