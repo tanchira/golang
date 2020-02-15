@@ -15,7 +15,7 @@ min = num[0]
 	for j := 0; j <= 10; j++ {
 		if min > num[j] {
 			min = num[j]
-		}else  
+		}else if  
 		max < num[j] {
 			max = num[j]
 		}else
