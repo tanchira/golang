@@ -11,4 +11,8 @@ func main() {
 		fmt.Scanf("%d", &num[i])
 	}
 
+	for j := 0; j < 10; j++ {
+
+	}
+
 }
