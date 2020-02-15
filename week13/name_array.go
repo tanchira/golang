@@ -4,6 +4,7 @@ import "fmt"
 
 func main() {
 	var name [8]string
+	name[0] = "Somsri"
 
 	name := []string{"Somsri", "Somjai", "Somnuk", "Somjit", "Somporn",
 		"Sombat", "Somkran", "Somtavin"}
