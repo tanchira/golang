@@ -13,5 +13,5 @@ func main() {
 	for loopindex := 0; loopindex < 5; loopindex++ {
 		fmt.Println("studen's score\n", score[loopindex])
 	}
-	return
+
 }
