@@ -22,5 +22,7 @@ min = num[0]
 			}
 	fmt.Printf{"The minimum is %d maximum is %d",min,max}
 
+	return 0
+
 
 }
