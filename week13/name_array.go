@@ -14,6 +14,6 @@ func main() {
 	name[7] = "Somtavin"
 
 	fmt.Println("	column 1			column 2")
-	fmt.Println
+	fmt.Println("-------------------------------")
 
 }
