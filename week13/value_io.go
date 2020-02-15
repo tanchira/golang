@@ -4,6 +4,7 @@ import "fmt"
 
 func main() {
 
+	var e float64
 	a := 10
 	b := 2
 	c := b * a
