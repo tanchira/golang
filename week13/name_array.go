@@ -7,7 +7,8 @@ func main() {
 	name[0] = "Somsri"
 	name[1] = "Somjai"
 	name[2] = "Somnuk"
-	name := []string{, , , "Somjit", "Somporn",
+	name[3] = "Somjit"
+	name := []string{, , , , "Somporn",
 		"Sombat", "Somkran", "Somtavin"}
 
 	fmt.Println("column 1				column 2")
