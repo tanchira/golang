@@ -1,6 +1,6 @@
 package main
 
 func main() {
-	a := 9
-	b := 6
+	value1 := 9
+	value2 := 6
 }
