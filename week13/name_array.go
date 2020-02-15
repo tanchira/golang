@@ -15,12 +15,12 @@ func main() {
 
 	fmt.Println("	column 1			column 2")
 	fmt.Println("-------------------------------")
-	fmt.Println("| ", name[0], "| ", name[1], "|")
+	fmt.Println("| ", name[0], "| ", name[4], "|")
 	fmt.Println("-------------------------------")
-	fmt.Println("| ", name[2], "| ", name[3], "|")
+	fmt.Println("| ", name[1], "| ", name[5], "|")
 	fmt.Println("-------------------------------")
-	fmt.Println("| ", name[4], "| ", name[5], "|")
+	fmt.Println("| ", name[2], "| ", name[6], "|")
 	fmt.Println("-------------------------------")
-	fmt.Println("| ", name[6], "| ", name[7], "|")
+	fmt.Println("| ", name[3], "| ", name[7], "|")
 
 }
