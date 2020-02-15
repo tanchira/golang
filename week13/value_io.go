@@ -7,5 +7,6 @@ func main() {
 	b = 2
 	c = b * a
 	d = c + a
+	e = d / a
 
 }
