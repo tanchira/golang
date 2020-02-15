@@ -11,12 +11,12 @@ func main() {
 		fmt.Scanf("%d", &num[i])
 	}
 min = num[0]
-max = num[0]
+
 	for j := 0; j <= 10; j++ {
 		if min > num[j] {
 			min = num[j]
-		}
-		else  max < num[j] {
+		}else  
+		max < num[j] {
 			max = num[j]
 		}
 		
