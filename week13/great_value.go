@@ -10,9 +10,14 @@ func main() {
 		fmt.Println("Enter number :")
 		fmt.Scanf("%d", &num[i])
 	}
-
-	for j := 0; j < 10; j++ {
-		if min > num[j]
+min = num[0]
+	for j := 0; j <= 10; j++ {
+		if min > num[] {
+			min = num[]
+		}
+		else max < num[]{
+			max = num[]
+		}else
 	}
 
 }
