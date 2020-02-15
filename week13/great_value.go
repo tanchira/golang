@@ -19,7 +19,8 @@ min = num[0]
 		max < num[j] {
 			max = num[j]
 		}else
-		
-	}
+			}
+	fmt.Printf{"The minimum is %d maximum is %d",min,max}
+
 
 }
