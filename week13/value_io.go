@@ -13,5 +13,6 @@ func main() {
 
 	fmt.Printf("value of c %d\n", c)
 	fmt.Printf("value of d %d\n", d)
+	fmt.Printf("value of e %f\n", e)
 
 }
