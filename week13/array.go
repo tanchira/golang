@@ -6,5 +6,6 @@ func main() {
 	score[0] = 90
 	score[1] = 67
 	score[2] = 82
+	score[3] = 71
 
 }
