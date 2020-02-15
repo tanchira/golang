@@ -9,4 +9,8 @@ func main() {
 	score[3] = 71
 	score[4] = 89
 
+	for loopindex := 0; loopindex < 5; loopindex++ {
+
+	}
+
 }
