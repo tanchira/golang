@@ -18,7 +18,7 @@ min = num[0]
 		}else  
 		max < num[j] {
 			max = num[j]
-		}
+		}else
 		
 	}
 
