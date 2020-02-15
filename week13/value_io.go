@@ -12,5 +12,6 @@ func main() {
 	e = d / a
 
 	fmt.Printf("value of c %d\n", c)
+	fmt.Printf("value of d %d\n", d)
 
 }
