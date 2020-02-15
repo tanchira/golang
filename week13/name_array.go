@@ -14,7 +14,7 @@ func main() {
 	name[7] = "Somtavin"
 
 	fmt.Println("  column 1	column 2")
-	fmt.Println("-------------------------------")
+	fmt.Println("____________________________")
 	fmt.Println("| ", name[0], "  | ", name[4], " |")
 	fmt.Println("-------------------------------")
 	fmt.Println("| ", name[1], "  | ", name[5], "  |")
