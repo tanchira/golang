@@ -10,9 +10,10 @@ func main() {
 	name[3] = "Somjit"
 	name[4] = "Somporn"
 	name[5] = "Sombat"
+	name[6] = "Somkran"
 
 	name := []string{, , , , ,
-		"Sombat", "Somkran", "Somtavin"}
+		"Sombat", , "Somtavin"}
 
 	fmt.Println("column 1				column 2")
 	fmt.Println
