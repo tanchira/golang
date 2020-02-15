@@ -16,4 +16,5 @@ func main() {
 	fmt.Println("	column 1			column 2")
 	fmt.Println("-------------------------------")
 	fmt.Println("| ", name[0], "| ", name[1], "|")
+	fmt.Println("-------------------------------")
 }
