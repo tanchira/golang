@@ -13,10 +13,7 @@ func main() {
 	name[6] = "Somkran"
 	name[7] = "Somtavin"
 
-	name := []string{, , , , ,
-		"Sombat", , }
-
-	fmt.Println("column 1				column 2")
+	fmt.Println("	column 1			column 2")
 	fmt.Println
 
 }
