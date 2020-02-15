@@ -9,6 +9,8 @@ func main() {
 	name[2] = "Somnuk"
 	name[3] = "Somjit"
 	name[4] = "Somporn"
+	name[5] = "Sombat"
+
 	name := []string{, , , , ,
 		"Sombat", "Somkran", "Somtavin"}
 
