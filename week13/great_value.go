@@ -12,11 +12,11 @@ func main() {
 	}
 min = num[0]
 	for j := 0; j <= 10; j++ {
-		if min > num[] {
-			min = num[]
+		if min > num[j] {
+			min = num[j]
 		}
-		else max < num[]{
-			max = num[]
+		else max < num[j]{
+			max = num[j]
 		}else
 	}
 
