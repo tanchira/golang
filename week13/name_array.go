@@ -19,5 +19,5 @@ func main() {
 	fmt.Println("-------------------------------")
 	fmt.Println("| ", name[2], "| ", name[3], "|")
 	fmt.Println("-------------------------------")
-
+	fmt.Println("| ", name[4], "| ", name[5], "|")
 }
