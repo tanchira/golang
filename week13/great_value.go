@@ -16,9 +16,10 @@ max = num[0]
 		if min > num[j] {
 			min = num[j]
 		}
-		else max < num[j]{
+		else if max < num[j] {
 			max = num[j]
-		}else
+		}
+		
 	}
 
 }
