@@ -3,9 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	number := 10
-	for {
-		number--
+
+	for number := 10; number > 0; number++ {
 		fmt.Println(number)
 	}
 
