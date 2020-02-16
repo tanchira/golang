@@ -6,7 +6,7 @@ func main() {
 	number := 10
 	for {
 		number--
+		fmt.Println(number)
 	}
-	fmt.Println(number)
 
 }
