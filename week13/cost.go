@@ -8,7 +8,7 @@ func main() {
 	fmt.Scan(&elecbill)
 	var waterbill int
 	fmt.Println("Water unit :")
-
+	fmt.Scan(&waterbill)
 	var all int
 	elecbill = elecbill * 5
 	waterbill = waterbill * 2
