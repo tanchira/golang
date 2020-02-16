@@ -3,10 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	number := 0
-	for countdown := 1; countdown < 10; countdown-- {
-		number -= countdown
+
+	for countdown := 10; countdown > 0; countdown-- {
+		fmt.Println(countdown)
 	}
-	fmt.Println(number)
 
 }
