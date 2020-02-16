@@ -16,5 +16,6 @@ func main() {
 	fmt.Printf("%f \n", value3+value4)
 	fmt.Printf("%f \n", value3-value4)
 	fmt.Printf("%f \n", value3*value4)
+	fmt.Printf("%f \n", value3/value4)
 
 }
