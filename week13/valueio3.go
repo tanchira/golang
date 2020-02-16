@@ -13,6 +13,6 @@ func main() {
 	fmt.Printf("%d \n", value1+value2)
 	fmt.Printf("%d \n", value1-value2)
 	fmt.Printf("%d \n", value1*value2)
-	fmt.Printf("%d \n", value1+value2)
+	fmt.Printf("%d \n", value1/value2)
 
 }
