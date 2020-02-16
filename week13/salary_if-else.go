@@ -12,7 +12,7 @@ func main() {
 		fmt.Println("หักภาษีทั้งหมด", deduct)
 	} else if salary >= 5001 {
 		deduct := salary / 100 * 5
-		fmt.Println("ให้หักภาษีทั้งหมด", deduct2)
+		fmt.Println("ให้หักภาษีทั้งหมด", deduct)
 	}
 
 }
