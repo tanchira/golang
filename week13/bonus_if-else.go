@@ -18,6 +18,7 @@ func main() {
 	fmt.Scan(&summit)
 	fmt.Println("*************************************************")
 	if summit >= 50000 {
+		Hugesales := summit / 100 * 30
 		fmt.Println(" Bonus (โบนัส)         =      ", Hugesales)
 	} else {
 		fmt.Println(" Bonus (โบนัส)         =      ", sales)
