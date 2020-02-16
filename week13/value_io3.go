@@ -11,5 +11,7 @@ func main() {
 	value2 = 3
 	value4 = 3.5
 	fmt.Printf("%d \n", value1+value2)
+	fmt.Printf("%d \n", value1-value2)
+	fmt.Printf("%d \n", value1*value2)
 
 }
