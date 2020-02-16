@@ -5,6 +5,6 @@ func main() {
 	value2 := 6
 	value3 := 0
 
-	c := a + b
+	c := value1 + value2
 
 }
