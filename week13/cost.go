@@ -14,5 +14,6 @@ func main() {
 	elecbill = elecbill + ((elecbill * 7) / 100)
 	waterbill = waterbill + ((waterbill * 7) / 100)
 	all = elecbill + waterbill
+	fmt.Println("totel ", all)
 
 }
