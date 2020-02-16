@@ -13,5 +13,6 @@ func main() {
 	fmt.Printf("%d %d %d\n", value1, value2, value3)
 	value3 = value1
 	value3 = value3 - value2
+	value3 = value3 + value1
 
 }
