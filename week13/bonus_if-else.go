@@ -21,6 +21,7 @@ func main() {
 		Hugesales := summit / 100 * 30
 		fmt.Println(" Bonus (โบนัส)         =      ", Hugesales)
 	} else {
+		sales := summit / 100 * 10
 		fmt.Println(" Bonus (โบนัส)         =      ", sales)
 	}
 
