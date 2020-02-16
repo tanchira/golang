@@ -6,7 +6,7 @@ func main() {
 	elecbill = elecbill * 5
 	waterbill = waterbill * 2
 	elecbill = elecbill + ((elecbill * 7) / 100)
-	waterbill = (waterbill * 7) / 100
+	waterbill = waterbill + ((waterbill * 7) / 100)
 	all = elecbill + waterbill
 
 }
