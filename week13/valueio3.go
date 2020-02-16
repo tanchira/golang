@@ -5,7 +5,8 @@ func main() {
 	var value3, value4 float64
 
 	value1 = 10
-	value2 = 5.5
-	value3 = 3
+	value3 = 5.5
+	value2 = 3
+	value4 = 3.5
 
 }
