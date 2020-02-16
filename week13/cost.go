@@ -1,6 +1,7 @@
 package main
 
 func main() {
-	var Elecbill int
+	var elecbill int
+	var waterbill int
 
 }
