@@ -5,6 +5,7 @@ import "fmt"
 func main() {
 	var elecbill int
 	var waterbill int
+	var all int
 	fmt.Println("Water unit :")
 	fmt.Println("Power unit :")
 	elecbill = elecbill * 5
