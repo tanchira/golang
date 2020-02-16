@@ -14,5 +14,6 @@ func main() {
 	value3 = value1
 	value3 = value3 - value2
 	value3 = value3 + value1
+	value3 = value3 + value2
 
 }
