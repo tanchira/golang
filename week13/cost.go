@@ -3,13 +3,13 @@ package main
 import "fmt"
 
 func main() {
-	var elecbill int
+	var elecbill float32
 	fmt.Println("Power unit :")
 	fmt.Scan(&elecbill)
-	var waterbill int
+	var waterbill float32
 	fmt.Println("Water unit :")
 	fmt.Scan(&waterbill)
-	var all int
+	var all float32
 	elecbill = elecbill * 5
 	waterbill = waterbill * 2
 	fmt.Println("Electricity bill", elecbill)
