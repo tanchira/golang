@@ -52,6 +52,6 @@ func createfile(path, size, name []string) {
 		fmt.Println(err)
 	}
 	for info := range path {
-
+		file.WriteString(size[info] + "\t" + path[info] + "\n")
 	}
 }
