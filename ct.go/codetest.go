@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"io/ioutil"
 	"os"
+	"strconv"
 )
 
 type file struct {
@@ -67,6 +68,7 @@ func main() {
 	var pathfile, sizefile []string
 	for _, pathtofile := range myfiles {
 		pathfile = append(pathfile, pathtofile.path)
+		sizefile = append(sizefile, strconv.Itoa(int(pathtofile, size)))
 	}
 
 }
