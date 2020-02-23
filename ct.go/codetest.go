@@ -2,5 +2,6 @@ package main
 
 type file struct {
 	name string
-	size string
+	size int64
+	path string
 }
