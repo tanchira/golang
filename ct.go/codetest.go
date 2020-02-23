@@ -38,7 +38,7 @@ func findFileFromExtention(area map[string]string, dir string, files *[]file) {
 	}
 	for _, f := range fs {
 		if f.IsDir() {
-
+			path := dir + "/" + f.Name()
 		}
 	}
 
