@@ -11,6 +11,9 @@ type file struct {
 func driver() (read []string) {
 	for _, drive := range "D:" {
 		f, err := os.Open(string(drive) + ":\\")
+		if err == nil {
+			dir := string(drive) + ":/"
+		}
 	}
 
 }
