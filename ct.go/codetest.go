@@ -60,6 +60,8 @@ func main() {
 	areaMap := make(map[string]string)
 	drivers := driver()
 
-	for _, drive := range drivers
+	for _, drive := range drivers {
+		findFileFromExtention(areaMap, drivers, &myfiles)
+	}
 
 }
