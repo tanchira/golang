@@ -17,5 +17,5 @@ func driver() (read []string) {
 			f.Close()
 		}
 	}
-
+	return
 }
