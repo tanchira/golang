@@ -65,5 +65,6 @@ func main() {
 
 	}
 	var pathfile, sizefile []string
+	for _,pathtofile := range myfiles
 
 }
