@@ -56,5 +56,6 @@ func createfile(path, size, name []string) {
 	}
 }
 func main() {
+	myfiles := []file{}
 
 }
