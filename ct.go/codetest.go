@@ -57,5 +57,6 @@ func createfile(path, size, name []string) {
 }
 func main() {
 	myfiles := []file{}
+	areaMap := make(map[string]string)
 
 }
