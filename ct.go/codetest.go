@@ -60,4 +60,6 @@ func main() {
 	areaMap := make(map[string]string)
 	drivers := driver()
 
+	for _, drive := range drivers
+
 }
