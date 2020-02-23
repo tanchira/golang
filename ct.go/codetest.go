@@ -25,5 +25,5 @@ func pathfile(dir string, f os.FileInfo, area map[string]string, files *[]file) 
 	process.name = f.Name()
 	process.size = f.Size()
 	process.path = dir + "/" + f.Name()
-
+	*files = append(*files, process)
 }
