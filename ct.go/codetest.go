@@ -27,3 +27,7 @@ func pathfile(dir string, f os.FileInfo, area map[string]string, files *[]file) 
 	process.path = dir + "/" + f.Name()
 	*files = append(*files, process)
 }
+
+func findFileFromExtention(area map[string]string, dir string, files *[]file) {
+
+}
