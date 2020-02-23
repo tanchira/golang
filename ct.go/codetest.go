@@ -72,5 +72,6 @@ func main() {
 
 	}
 	createfile(pathfile, sizefile)
+	fmt.Println("file", len(myfiles))
 
 }
