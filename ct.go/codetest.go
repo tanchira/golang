@@ -62,6 +62,8 @@ func main() {
 
 	for _, drive := range drivers {
 		findFileFromExtention(areaMap, drivers, &myfiles)
+
 	}
+	var pathfile, sizefile []string
 
 }
