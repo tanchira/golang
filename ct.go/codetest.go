@@ -69,6 +69,8 @@ func main() {
 	for _, pathtofile := range myfiles {
 		pathfile = append(pathfile, pathtofile.path)
 		sizefile = append(sizefile, strconv.Itoa(int(pathtofile, size)))
+
 	}
+	createfile(pathfile, sizefile)
 
 }
