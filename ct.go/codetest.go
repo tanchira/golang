@@ -8,7 +8,6 @@ import (
 )
 
 type file struct {
-	name string
 	size int64
 	path string
 }
@@ -27,7 +26,6 @@ func driver() (read []string) {
 
 func pathfile(dir string, f os.FileInfo, area map[string]string, files *[]file) {
 	var process file
-	process.name = f.Name()
 	process.size = f.Size()
 	process.path = dir + "/" + f.Name()
 	*files = append(*files, process)
@@ -42,6 +40,8 @@ func findFileFromExtention(area map[string]string, dir string, files *[]file) {
 		if f.IsDir() {
 			path := dir + "/" + f.Name()
 			findFileFromExtention(area, path, files)
+		} else {
+			pathfile(dir, f, area, files)
 		}
 	}
 
