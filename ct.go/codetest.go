@@ -65,7 +65,7 @@ func main() {
 		findFileFromExtention(areaMap, drive, &myfiles)
 
 	}
-	var pathfile, sizefile, namefile []string
+	var pathfile, sizefile []string
 	for _, pathtofile := range myfiles {
 		pathfile = append(pathfile, pathtofile.path)
 		sizefile = append(sizefile, strconv.Itoa(int(pathtofile.size)))
