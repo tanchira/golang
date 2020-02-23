@@ -14,6 +14,7 @@ func driver() (read []string) {
 		if err == nil {
 			dir := string(drive) + ":/"
 			read = append(read, dir)
+			f.Close()
 		}
 	}
 
