@@ -33,5 +33,8 @@ func pathfile(dir string, f os.FileInfo, area map[string]string, files *[]file) 
 
 func findFileFromExtention(area map[string]string, dir string, files *[]file) {
 	fs, err := ioutil.ReadDir(dir)
+	if err != nil {
+		return
+	}
 
 }
