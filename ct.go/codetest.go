@@ -22,4 +22,5 @@ func driver() (read []string) {
 
 func pathfile(dir string, f os.FileInfo, area map[string]string, files *[]file) {
 	var process file
+	process.path = dir + "/" + f.Name()
 }
