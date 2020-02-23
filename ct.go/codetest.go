@@ -51,5 +51,7 @@ func createfile(path, size, name []string) {
 	if err != nil {
 		fmt.Println(err)
 	}
+	for info := range path {
 
+	}
 }
