@@ -1,5 +1,7 @@
 package main
 
+import "os"
+
 type file struct {
 	name string
 	size int
@@ -7,8 +9,8 @@ type file struct {
 }
 
 func driver() (read []string) {
-	for _, driver := range "D:" {
-
+	for _, drive := range "D:" {
+		f, err := os.Open(string(drive) + ":\\")
 	}
 
 }
