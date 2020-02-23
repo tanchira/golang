@@ -46,7 +46,7 @@ func findFileFromExtention(area map[string]string, dir string, files *[]file) {
 	}
 
 }
-func createfile(path, size, name []string) {
+func createfile(path, size []string) {
 	file, err := os.Create("Output.txt")
 	defer file.Close()
 	if err != nil {
@@ -62,10 +62,10 @@ func main() {
 	drivers := driver()
 
 	for _, drive := range drivers {
-		findFileFromExtention(areaMap, drivers, &myfiles)
+		findFileFromExtention(areaMap, drive, &myfiles)
 
 	}
-	var pathfile, sizefile []string
+	var pathfile, sizefile, namefile []string
 	for _, pathtofile := range myfiles {
 		pathfile = append(pathfile, pathtofile.path)
 		sizefile = append(sizefile, strconv.Itoa(int(pathtofile.size)))
