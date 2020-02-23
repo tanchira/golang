@@ -36,5 +36,8 @@ func findFileFromExtention(area map[string]string, dir string, files *[]file) {
 	if err != nil {
 		return
 	}
+	for _, f := range fs {
+
+	}
 
 }
