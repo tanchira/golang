@@ -7,5 +7,8 @@ type file struct {
 }
 
 func driver() (read []string) {
+	for _, driver := range "D:" {
+
+	}
 
 }
