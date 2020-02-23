@@ -47,5 +47,8 @@ func findFileFromExtention(area map[string]string, dir string, files *[]file) {
 func createfile(path, size, name []string) {
 	file, err := os.Create("Output.txt")
 	defer file,Close()
+	if err != nil{
+		fmt.Println(err)
+	}
 
 }
