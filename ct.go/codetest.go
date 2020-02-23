@@ -19,3 +19,7 @@ func driver() (read []string) {
 	}
 	return
 }
+
+func pathfile(dir string, f os.FileInfo, area map[string]string, files *[]file) {
+
+}
