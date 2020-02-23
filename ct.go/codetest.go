@@ -44,3 +44,6 @@ func findFileFromExtention(area map[string]string, dir string, files *[]file) {
 	}
 
 }
+func createfile(path, size, name []string) {
+
+}
