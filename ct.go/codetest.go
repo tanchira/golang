@@ -4,7 +4,7 @@ import "os"
 
 type file struct {
 	name string
-	size int
+	size int64
 	path string
 }
 
